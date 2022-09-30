@@ -1,4 +1,4 @@
-:root{
+:root {
     --font-1: "Open Sans", sans-serif;
     --font-2: "Rubik", sans-serif;
     --Verde-oscuro: #099D8D;
@@ -93,13 +93,41 @@ padding-bottom: 5px; }
 /*hero*/
 
 /*Start Fortalezas*/
+/* [TODO: valdenebro] pasar píxeles a rem*/
 .fortalezas-debilidades {
-    /*margin: 504px 0 0;*/
-    background-color: var(--cool-grey);
+    background-color: rgb(84, 88, 90, 0.2); /*rgb code of the color + opacity*/
     padding: 30px 15px 45px;
 }
+.fortalezas {
+    margin-bottom: 30px;
+}
 .fortalezas_h4 {
-    color: var(--blue-green);
+    color: var(--Verde-oscuro);
+    font-family: var(--font-2);
+    font-size: 22px;
+    font-weight: 500; /*the photo seems to have more weight than this, but this is the specified one*/
+    line-height: 2.05;
+    text-align: center;
+
+}
+.fortalezas_p {
+    color: var(--Gris-oscuro);
+    font-family: var(--font-1);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.rectangle {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    width: 0; 
+    height: 0; 
+    /* border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00; */
 }
 
 /*End Fortalezas*/
