@@ -9,3 +9,26 @@
     --Gris-claro: #B8B8B9;
     --Gris-de-fondo: #F1F1F1;
 }
+
+.team-equipo {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.team-title {
+    font-family: var(--font-2);
+    color: var(--Verde-claro);
+    font-size: 24px;
+    padding-bottom: 15px;
+ 
+   
+}
+
+.team-text {
+    font-family: var(--font-1);
+    color: var(--Gris-oscuro);
+    padding-bottom: 30px;
+}
