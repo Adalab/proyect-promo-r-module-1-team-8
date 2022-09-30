@@ -24,9 +24,7 @@
     font-size: 16px;
     color: var(--Blanco);
     background-color: var(--Verde-oscuro);
-    height:;
     width: 100vw;
-    position:
 }
 
 .nav{
@@ -34,8 +32,13 @@
     font-size:16px ;
     background-color: var(--Verde-claro);
     width: 100vw;
-    position: ;
-
-   
+    justify-content: space-between;
 }
+
+.li-nav{
+    display: inline;
+
+    
+    }
+
  /*header*/
