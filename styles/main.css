@@ -91,3 +91,15 @@ padding-bottom: 5px; }
  }
 
 /*hero*/
+
+/*Start Fortalezas*/
+.fortalezas-debilidades {
+    /*margin: 504px 0 0;*/
+    background-color: var(--cool-grey);
+    padding: 30px 15px 45px;
+}
+.fortalezas_h4 {
+    color: var(--blue-green);
+}
+
+/*End Fortalezas*/
