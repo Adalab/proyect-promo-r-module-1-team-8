@@ -118,16 +118,11 @@ padding-bottom: 5px; }
     text-align: center;
 }
 .rectangle {
-    background-color: red;
+    background-color: white;
     height: 30px;
     width: 30px;
     margin: auto;
-    width: 0; 
-    height: 0; 
-    /* border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    
-    border-top: 20px solid #f00; */
+    transform: translateY(50%) rotate(45deg);
 }
 
 /*End Fortalezas*/
