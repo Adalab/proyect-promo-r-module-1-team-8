@@ -1,0 +1,36 @@
+ 
+ /*header*/
+ .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%
+ }
+
+.title{
+    font-family:Rubik-Medium;
+    font-size: 16px;
+    color: white;
+    background-color: 
+    #099d8d;
+    font-family:Rubik-Medium;
+    font-size:16px;
+    height:;
+    width: 100vw;
+    position:
+}
+
+.nav{
+    font-family:Rubik-Medium;
+    font-size:16px ;
+    background-color: 
+    #14d9c4;
+    width: 100vw;
+    position: ;
+
+   
+}
+
+
+ /*header*/
