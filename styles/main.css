@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 }
 
 .footer-copy {
@@ -32,6 +33,7 @@ padding-bottom: 20px;
 .footer img {
     height: 45px;
     width: 115.9px;
+    padding-bottom: 45px;
 }
 
 /* footer-mireia */
