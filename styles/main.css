@@ -1,4 +1,15 @@
- 
+:root{
+    --font-1: "Open Sans", sans-serif;
+    --font-2: "Rubik", sans-serif;
+    --Verde-oscuro: #099D8D;
+    --Verde-claro: #14D9C4;
+    --Blanco: #FFFFFF;
+    --Negro: #000000;
+    --Gris-oscuro: #54585A;
+    --Gris-claro: #B8B8B9;
+    --Gris-de-fondo: #F1F1F1;
+}
+
  /*header*/
  .header{
     display: flex;
@@ -9,28 +20,22 @@
  }
 
 .title{
-    font-family:Rubik-Medium;
+    font-family: var(--font-2);
     font-size: 16px;
-    color: white;
-    background-color: 
-    #099d8d;
-    font-family:Rubik-Medium;
-    font-size:16px;
+    color: var(--Blanco);
+    background-color: var(--Verde-oscuro);
     height:;
     width: 100vw;
     position:
 }
 
 .nav{
-    font-family:Rubik-Medium;
+    font-family: var(--font-2);
     font-size:16px ;
-    background-color: 
-    #14d9c4;
+    background-color: var(--Verde-claro);
     width: 100vw;
     position: ;
 
    
 }
-
-
  /*header*/
