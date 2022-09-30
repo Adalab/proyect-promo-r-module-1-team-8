@@ -11,6 +11,8 @@
 }
 /* footer-mireia */
 .footer {
+    width: 100vw;
+    height: 250px;
     font-size: 14px;
     text-align: center;
     display: flex;
@@ -20,12 +22,14 @@
 }
 
 .footer-copy {
-color: #b8b8b9;
-padding-bottom: 20px;
+    font-family: var(--font-1);
+    color: var(--Gris-claro);
+    padding-bottom: 20px;
 }
 
 .footer-menu {
-    color: #54585a;
+    font-family: var(--font-1);
+    color: var(--Gris-oscuro);
     line-height: 1.5;
     padding-bottom: 30px;
 }
