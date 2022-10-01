@@ -16,6 +16,7 @@
     flex-direction: column;
     height: 105px;
     width:100vw;
+    position: fixed;
 
  }
 
@@ -53,3 +54,26 @@ margin-left: 10px; }
 
 
  /*header*/
+
+ /*hero*/
+ .hero{
+    background-color: violet;
+    width: 100vw;
+    height: 421px;
+    background-image: url(../images/Breaking\ code.jpg);
+    background-size: contain;
+ }
+ .lema{
+   color: var(--Negro);
+   width: 260px; 
+   height: 50px;
+   font-family: var(--font-1);
+   font-size: 18px;
+   font-weight: 600;
+   background-color: var(--Blanco);
+
+ }
+
+
+
+ /*hero*/
