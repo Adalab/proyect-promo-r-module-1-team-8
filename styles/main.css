@@ -9,60 +9,20 @@
     --Gris-claro: #B8B8B9;
     --Gris-de-fondo: #F1F1F1;
 }
- /*header*/
- .header{
-    background-color: #54585A;
-    display: flex;
-    flex-direction: column;
-    height: 105px;
-    width:100vw;
-    position: fixed;
-
- }
-
-.title{
-    background-color: var(--Verde-oscuro);
-    font-family: var(--font-2);
-    font-size: 16px;
-    color: var(--Blanco);
-    width: 100vw;
-    height:60px; 
-    text-align: center;
-    padding-top: 27px;
-
-}
-
-.nav{
-    background-color: var(--Verde-claro);
-    width: 100vw;
-    height: 45px;
-   }
-
-.li-nav{
-    display:inline-block;
-    text-align: center;
-    font-size:15px;
-   margin-top: 11px;
-margin-left: 10px; }
-
-.menu{
-    text-decoration: none; 
-    font-family: var(--font-2);
-    color: var(--Blanco); 
-    align-items: center;
-}
-
-
- /*header*/
 
  /*hero*/
  .hero{
-    background-color: violet;
     width: 100vw;
     height: 421px;
     background-image: url(../images/Breaking\ code.jpg);
     background-size: contain;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+    align-items: center;
+   
  }
+
  .lema{
    color: var(--Negro);
    width: 260px; 
@@ -71,9 +31,11 @@ margin-left: 10px; }
    font-size: 18px;
    font-weight: 600;
    background-color: var(--Blanco);
+   line-height: 1.39;
+   text-align: center;
+   padding: 10px;
+
 
  }
 
-
-
- /*hero*/
+/*hero*/
