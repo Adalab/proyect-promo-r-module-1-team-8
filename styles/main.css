@@ -65,7 +65,8 @@ padding-bottom: 5px; }
     width: 100vw;
     height: 421px;
     background-image: url(../images/Breaking\ code.jpg);
-    background-size: contain;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     display:flex;
     flex-direction:column;
     justify-content:center;
