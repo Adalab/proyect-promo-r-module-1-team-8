@@ -12,9 +12,10 @@
 
 /* header */
 .header{
-    background-color: #54585A;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 105px;
     width:100vw;
     position: fixed;
@@ -30,7 +31,7 @@
     width: 100vw;
     height:60px; 
     text-align: center;
-    padding-top: 27px;
+    padding-top: 23px
 
 }
 
@@ -39,14 +40,17 @@
     width: 100vw;
     height: 45px;
     text-align: center;
+    margin: ;
+    padding: 10px;
    }
 
 .li-nav{
     display:inline-block;
     text-align: center;
     font-size:15px;
-    margin-top: 11px;
-    margin-left: 10px; }
+    margin-top: 5px;
+    margin-left: 8px;
+padding-bottom: 5px; }
 
 .menu{
     text-decoration: none; 
@@ -65,8 +69,9 @@
     background-size: contain;
     display:flex;
     flex-direction:column;
-    justify-content:end;
+    justify-content:center;
     align-items: center;
+   
    
  }
 
@@ -80,7 +85,8 @@
    background-color: var(--Blanco);
    line-height: 1.39;
    text-align: center;
-   padding: 10px;
+   padding: 14px 15px 16px;
+   margin:420px 15px 0
 
 
  }
