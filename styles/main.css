@@ -1,4 +1,4 @@
-:root {
+:root{
     --font-1: "Open Sans", sans-serif;
     --font-2: "Rubik", sans-serif;
     --Verde-oscuro: #099D8D;
@@ -126,3 +126,36 @@ padding-bottom: 5px; }
 }
 
 /*End Fortalezas*/
+
+/* footer-mireia */
+.footer {
+    width: 100vw;
+    height: 250px;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.footer_copy {
+    font-family: var(--font-1);
+    color: var(--Gris-claro);
+    padding-bottom: 20px;
+}
+
+.footer_menu {
+    font-family: var(--font-1);
+    color: var(--Gris-oscuro);
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.footer_img {
+    height: 45px;
+    width: 115.9px;
+    padding-bottom: 45px;
+}
+
+/* footer-mireia */
