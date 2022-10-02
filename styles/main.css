@@ -112,6 +112,9 @@ padding-bottom: 5px; }
 
 .team_p {
     font-family: var(--font-1);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
     color: var(--Gris-oscuro);
     margin: 15px 0 0;
    
