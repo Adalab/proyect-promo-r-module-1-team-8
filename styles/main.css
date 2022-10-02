@@ -20,7 +20,7 @@
     width:100vw;
     position: fixed;
     opacity: 0.95;
-
+    z-index: 1;
  }
 
 .title{
