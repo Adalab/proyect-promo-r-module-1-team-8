@@ -92,6 +92,33 @@ padding-bottom: 5px; }
 
 /*hero*/
 
+/* team-mireia */
+.team_div {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.team_h3 {
+    font-family: var(--font-2);
+    color: var(--Verde-claro);
+    font-size: 24px;
+    padding-top: 46px;
+    margin-top: 46px;
+    
+}
+
+.team_p {
+    font-family: var(--font-1);
+    color: var(--Gris-oscuro);
+    margin: 15px 0 0;
+   
+}
+
+/* team-mireia */
+
 /*Start Fortalezas*/
 /* [TODO: valdenebro] change px to rem*/
 .fortalezas-debilidades {
