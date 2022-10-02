@@ -189,3 +189,59 @@ padding-bottom: 5px; }
 }
 
 /* footer-mireia */
+
+/*quienes somos maria*/
+.quienes-somos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title-quienes {
+    background-color: white;
+    font-family: var(--font-2);
+    font-size: 24px;
+    color: var(--Verde-oscuro);
+    margin-top:50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+.article-1, .article-2, .article-3, .article-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-1);
+}
+.img-quienes {
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    border-color: #54585A;
+}
+.name-quienes{
+    color: var(--Negro);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+.text-quienes{
+    color: var(--Gris-oscuro);
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.social-media-items{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 15px ;
+}
+.item a {
+    text-decoration: none;
+    color: #099D8D;
+}
+/*fin quienes somos maria*/
