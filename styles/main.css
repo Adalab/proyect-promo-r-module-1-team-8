@@ -9,8 +9,8 @@
     --Gris-claro: #B8B8B9;
     --Gris-de-fondo: #F1F1F1;
 }
-
-.team-equipo {
+/* team-mireia */
+.team_div {
     display: flex;
     flex-direction:column;
     text-align: center;
@@ -18,7 +18,7 @@
     margin-right: 30px;
 }
 
-.team-title {
+.team_h3 {
     font-family: var(--font-2);
     color: var(--Verde-claro);
     font-size: 24px;
@@ -27,8 +27,10 @@
    
 }
 
-.team-text {
+.team_p {
     font-family: var(--font-1);
     color: var(--Gris-oscuro);
     padding-bottom: 30px;
 }
+
+/* team-mireia */
