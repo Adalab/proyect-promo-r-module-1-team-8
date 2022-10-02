@@ -10,6 +10,53 @@
     --Gris-de-fondo: #F1F1F1;
 }
 
+/* header */
+.header{
+    background-color: #54585A;
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    width:100vw;
+    position: fixed;
+    opacity: 0.95;
+
+ }
+
+.title{
+    background-color: var(--Verde-oscuro);
+    font-family: var(--font-2);
+    font-size: 16px;
+    color: var(--Blanco);
+    width: 100vw;
+    height:60px; 
+    text-align: center;
+    padding-top: 27px;
+
+}
+
+.nav{
+    background-color: var(--Verde-claro);
+    width: 100vw;
+    height: 45px;
+    text-align: center;
+   }
+
+.li-nav{
+    display:inline-block;
+    text-align: center;
+    font-size:15px;
+    margin-top: 11px;
+    margin-left: 10px; }
+
+.menu{
+    text-decoration: none; 
+    font-family: var(--font-2);
+    color: var(--Blanco); 
+    align-items: center;
+}
+
+/* header */
+
  /*hero*/
  .hero{
     width: 100vw;
