@@ -21,20 +21,20 @@
     padding-top: 30px;
 }
 
-.footer-copy {
+.footer_copy {
     font-family: var(--font-1);
     color: var(--Gris-claro);
     padding-bottom: 20px;
 }
 
-.footer-menu {
+.footer_menu {
     font-family: var(--font-1);
     color: var(--Gris-oscuro);
     line-height: 1.5;
     padding-bottom: 30px;
 }
 
-.footer img {
+.footer_img {
     height: 45px;
     width: 115.9px;
     padding-bottom: 45px;
