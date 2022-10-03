@@ -9,7 +9,7 @@
     --Gris-claro: #B8B8B9;
     --Gris-de-fondo: #F1F1F1;
 }
-
+/*quienes somos María*/
 .quienes-somos {
     width: 100%;
     display: flex;
@@ -35,14 +35,14 @@
 .img-quienes {
     width: 180px;
     height: 180px;
+    border-color: #B8B8B9;
     border-radius: 5px;
-    border-color: #54585A;
 }
 .name-quienes{
     color: var(--Negro);
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 .text-quienes{
@@ -52,14 +52,18 @@
     margin-left: 50px;
     margin-right: 50px;
 }
-
 .social-media-items{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
     margin-bottom: 15px ;
 }
 .item a {
     text-decoration: none;
     color: #099D8D;
 }
+li{
+    color: #099D8D;
+}
+
+/*Fin quienes somos Maria*/
