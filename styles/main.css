@@ -1,13 +1,13 @@
 :root{
     --font-1: "Open Sans", sans-serif;
     --font-2: "Rubik", sans-serif;
-    --Verde-oscuro: #099D8D;
-    --Verde-claro: #14D9C4;
-    --Blanco: #FFFFFF;
-    --Negro: #000000;
-    --Gris-oscuro: #54585A;
-    --Gris-claro: #B8B8B9;
-    --Gris-de-fondo: #F1F1F1;
+    --dark-green: #099D8D;
+    --light-green: #14D9C4;
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark-grey: #54585A;
+    --light-grey: #B8B8B9;
+    --grey-background: #F1F1F1;
 }
 
 /* header */
@@ -25,10 +25,10 @@
  }
 
 .title{
-    background-color: var(--Verde-oscuro);
+    background-color: var(--dark-green);
     font-family: var(--font-2);
     font-size: 16px;
-    color: var(--Blanco);
+    color: var(--white);
     width: 100vw;
     height:60px; 
     text-align: center;
@@ -37,7 +37,7 @@
 }
 
 .nav{
-    background-color: var(--Verde-claro);
+    background-color: var(--light-green);
     width: 100vw;
     height: 45px;
     text-align: center;
@@ -63,7 +63,7 @@
 .menu{
     text-decoration: none; 
     font-family: var(--font-2);
-    color: var(--Blanco); 
+    color: var(--white); 
     align-items: center;
 }
 
@@ -85,13 +85,13 @@
  }
 
  .lema{
-   color: var(--Negro);
+   color: var(--black);
    width: 260px; 
    height: 50px;
    font-family: var(--font-1);
    font-size: 18px;
    font-weight: 600;
-   background-color: var(--Blanco);
+   background-color: var(--white);
    line-height: 1.39;
    text-align: center;
    padding: 14px 15px 16px;
@@ -113,7 +113,7 @@
 
 .team_h3 {
     font-family: var(--font-2);
-    color: var(--Verde-claro);
+    color: var(--light-green);
     font-size: 24px;
     padding-top: 46px;
     margin-top: 46px;
@@ -125,7 +125,7 @@
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    color: var(--Gris-oscuro);
+    color: var(--dark-grey);
     margin: 15px 0 0;
    
 }
@@ -142,7 +142,7 @@
     margin-bottom: 30px;
 }
 .fortalezas_h4 {
-    color: var(--Verde-oscuro);
+    color: var(--dark-green);
     font-family: var(--font-2);
     font-size: 22px;
     font-weight: 500;
@@ -151,7 +151,7 @@
 
 }
 .fortalezas_p {
-    color: var(--Gris-oscuro);
+    color: var(--dark-grey);
     font-family: var(--font-1);
     font-size: 16px;
     line-height: 1.5;
@@ -177,18 +177,18 @@
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
-    border-top: 1px solid var(--Negro);
+    border-top: 1px solid var(--black);
 }
 
 .footer_copy {
     font-family: var(--font-1);
-    color: var(--Gris-claro);
+    color: var(--light-grey);
     padding-bottom: 20px;
 }
 
 .footer_menu {
     font-family: var(--font-1);
-    color: var(--Gris-oscuro);
+    color: var(--dark-grey);
     line-height: 1.5;
     padding-bottom: 30px;
 }
@@ -201,7 +201,7 @@
 
 .footer_links {
     text-decoration: none;
-    color: var(--Gris-oscuro);
+    color: var(--dark-grey);
 }
 
 /* footer-mireia */
@@ -213,10 +213,10 @@
     flex-direction: column;
 }
 .title-quienes {
-    background-color: white;
+    background-color: var(--white);
     font-family: var(--font-2);
     font-size: 24px;
-    color: var(--Verde-oscuro);
+    color: var(--dark-green);
     margin-top:50px;
     margin-bottom: 50px;
     display: flex;
@@ -232,18 +232,18 @@
 .img-quienes {
     width: 180px;
     height: 180px;
-    border-color: #B8B8B9;
+    border-color: var(--light-grey);
     border-radius: 5px;
 }
 .name-quienes{
-    color: var(--Negro);
+    color: var(--black);
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
 
 }
 .text-quienes{
-    color: var(--Gris-oscuro);
+    color: var(--dark-grey);
     text-align: center;
     margin-bottom: 15px;
     margin-left: 50px;
@@ -257,10 +257,10 @@
 }
 .item a {
     text-decoration: none;
-    color: #099D8D;
+    color: var(--dark-green);
 }
 li{
-    color: #099D8D;
+    color: var(--dark-green);
 }
 
 /*Fin quienes somos Maria*/
