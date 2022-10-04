@@ -233,17 +233,17 @@ table {
   margin: 15px 0 0; }
 
 /* team-mireia */
-/*Start Fortalezas*/
+/*Start strenghts*/
 /* [TODO: valdenebro] change px to rem*/
-.fortalezas-debilidades {
+.strenghts-weaknesses {
   background-color: rgba(84, 88, 90, 0.2);
   /*rgb code of the color + opacity*/
   padding: 30px 15px 15px 15px; }
 
-.fortalezas {
+.strenghts {
   margin-bottom: 30px; }
 
-.fortalezas_h4 {
+.strenghts_h4 {
   color: var(--dark-green);
   font-family: var(--font-2);
   font-size: 22px;
@@ -251,7 +251,7 @@ table {
   line-height: 2.05;
   text-align: center; }
 
-.fortalezas_p {
+.strenghts_p {
   color: var(--dark-grey);
   font-family: var(--font-1);
   font-size: 16px;
@@ -265,7 +265,7 @@ table {
   margin: auto;
   transform: translateY(50%) rotate(45deg); }
 
-/*End Fortalezas*/
+/*End strenghts*/
 /*quienes somos maria*/
 .quienes-somos {
   width: 100%;
@@ -363,14 +363,14 @@ li {
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 30px; }
-  /*Start Fortalezas*/
-  .fortalezas-debilidades {
+  /*Start strenghts*/
+  .strenghts-weaknesses {
     display: flex;
     padding: 45px 30px 30px 30px;
     gap: 30px; }
-  .fortalezas_h4 {
+  .strenghts_h4 {
     margin-bottom: 15px; }
-  /*End Fortalezas*/
+  /*End strenghts*/
   /* footer-mireia */
   .footer {
     height: 170px;
@@ -391,13 +391,13 @@ li {
   .team_div {
     margin-left: 299px;
     margin-right: 300px; }
-  /*Start Fortalezas*/
-  .fortalezas-debilidades {
+  /*Start strenghts*/
+  .strenghts-weaknesses {
     display: flex;
     padding-left: 45px;
     padding-right: 45px;
     gap: 30px; }
-  /*End Fortalezas*/
+  /*End strenghts*/
   /* footer-mireia */
   .footer {
     height: 161px;
