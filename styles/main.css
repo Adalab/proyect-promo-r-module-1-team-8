@@ -15,12 +15,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     height: 105px;
     width:100vw;
     position: fixed;
+    top: 0;
     opacity: 0.95;
-
+    z-index: 1;
  }
 
 .title{
@@ -41,15 +42,23 @@
     height: 45px;
     text-align: center;
     padding: 10px;
+   
    }
+
+.ul-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 .li-nav{
     display:inline-block;
     text-align: center;
     font-size:15px;
     margin-top: 5px;
-    margin-left: 8px;
-padding-bottom: 5px; }
+    margin-left: 16px;
+    margin-right: 17px;
+    margin-bottom: 5px; }
 
 .menu{
     text-decoration: none; 
@@ -65,7 +74,8 @@ padding-bottom: 5px; }
     width: 100vw;
     height: 421px;
     background-image: url(../images/Breaking\ code.jpg);
-    background-size: contain;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -167,6 +177,7 @@ padding-bottom: 5px; }
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    border-top: 1px solid var(--Negro);
 }
 
 .footer_copy {
@@ -186,6 +197,11 @@ padding-bottom: 5px; }
     height: 45px;
     width: 115.9px;
     padding-bottom: 45px;
+}
+
+.footer_links {
+    text-decoration: none;
+    color: var(--Gris-oscuro);
 }
 
 /* footer-mireia */
