@@ -48,13 +48,14 @@
   width: 100vw;
   height: 60px;
   text-align: center;
-  padding-top: 23px;
+  padding-top: rem(23);
+  text-transform: capitalize;
 }
 
 .nav {
   background-color: var(--light-green);
   width: 100vw;
-  height: 45px;
+  height: rem(45);
   text-align: center;
   padding: 10px;
 }
@@ -67,11 +68,12 @@
 .li-nav {
   display: inline-block;
   text-align: center;
-  font-size: 15px;
-  margin-top: 5px;
-  margin-left: 16px;
-  margin-right: 17px;
-  margin-bottom: 5px;
+  font-size: rem(15);
+  margin-top: rem(5);
+  margin-left: rem(16);
+  margin-right: rem(17);
+  margin-bottom: rem(5);
+  text-transform: capitalize;
 }
 
 .menu {
@@ -86,7 +88,7 @@
 /*hero*/
 .hero {
   width: 100vw;
-  height: 421px;
+  height: rem(421);
   background-image: url("../images/breaking-code.jpg");
   background-size: 100vw 100vw;
   background-repeat: no-repeat;
@@ -98,16 +100,16 @@
 
 .lema {
   color: var(--black);
-  width: 260px;
-  height: 50px;
+  width: rem(260);
+  height: rem(50);
   font-family: var(--font-1);
-  font-size: 16px;
+  font-size: rem(16);
   font-weight: 600;
   background-color: var(--white);
   line-height: 1.39;
   text-align: center;
-  padding: 14px 15px 16px;
-  margin: 420px 15px 0;
+  padding: rem(14) rem(15) rem(16);
+  margin: rem(420) rem(15) rem(0);
 }
 
 /*hero*/

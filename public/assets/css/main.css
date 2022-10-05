@@ -157,12 +157,13 @@ table {
   width: 100vw;
   height: 60px;
   text-align: center;
-  padding-top: 23px; }
+  padding-top: 1.4375rem;
+  text-transform: capitalize; }
 
 .nav {
   background-color: var(--light-green);
   width: 100vw;
-  height: 45px;
+  height: 2.8125rem;
   text-align: center;
   padding: 10px; }
 
@@ -173,11 +174,12 @@ table {
 .li-nav {
   display: inline-block;
   text-align: center;
-  font-size: 15px;
-  margin-top: 5px;
-  margin-left: 16px;
-  margin-right: 17px;
-  margin-bottom: 5px; }
+  font-size: 0.9375rem;
+  margin-top: 0.3125rem;
+  margin-left: 1rem;
+  margin-right: 1.0625rem;
+  margin-bottom: 0.3125rem;
+  text-transform: capitalize; }
 
 .menu {
   text-decoration: none;
@@ -189,7 +191,7 @@ table {
 /*hero*/
 .hero {
   width: 100vw;
-  height: 421px;
+  height: 26.3125rem;
   background-image: url("../images/breaking-code.jpg");
   background-size: 100vw 100vw;
   background-repeat: no-repeat;
@@ -200,16 +202,16 @@ table {
 
 .lema {
   color: var(--black);
-  width: 260px;
-  height: 50px;
+  width: 16.25rem;
+  height: 3.125rem;
   font-family: var(--font-1);
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   background-color: var(--white);
   line-height: 1.39;
   text-align: center;
-  padding: 14px 15px 16px;
-  margin: 420px 15px 0; }
+  padding: 0.875rem 0.9375rem 1rem;
+  margin: 26.25rem 0.9375rem 0rem; }
 
 /*hero*/
 /* team-mireia */
