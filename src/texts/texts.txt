@@ -1,9 +1,14 @@
-Texto general
+Texto general hoja principal
 
-Esta página trata sobre cuatro mujeres con backgrounds muy diferentes que se encuentran en una encrucijada, seguir en mundillos que no les dan lo que buscan o enfretarse a un cambio que pondrá patas arriba su vida.
+Esta página trata sobre cuatro mujeres con backgrounds muy diferentes que se encuentran en una encrucijada, seguir en mundillos que no les dan lo que buscan o enfrentarse a un cambio que pondrá patas arriba su vida.
 
-En un plotwist muy emocionante, estas cuatro mujeres deciden encontrar la receta perfecta para crear una web que les dé visibilidad sobre su nueva profesión, la programación web. ¿Querrás formar parte de este cambio? Si es así, haz scroll hacia abajo. Aviso: esta página puede ser adictiva.
+En un plotwist muy emocionante, se deciden encontrar la receta perfecta para crear una web que les dé visibilidad sobre su nueva profesión, la programación web. ¿Querrás formar parte de este cambio? Si es así, haz scroll hacia abajo. Aviso: esta página puede ser adictiva.
 
+Texto general hoja contactos
+
+Si lo que estás buscando es la mejor receta para tu código, un código con el que enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:
+
+Todos los campos marcados con * son obligatorios.
 ____
 
 Laura Valdenebro Álvarez
