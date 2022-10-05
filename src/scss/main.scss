@@ -7,6 +7,7 @@
 
 @import 'core/reset';
 @import 'core/variables';
+@import 'layout/form';
 
 
 :root {
@@ -119,25 +120,26 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: rem(15);
+  margin-right: rem(15);
 }
 
 .team_h3 {
   font-family: var(--font-2);
   color: var(--light-green);
-  font-size: 24px;
-  padding-top: 46px;
-  margin-top: 46px;
+  font-size: rem(24);
+  text-transform: uppercase; 
+  padding-top: rem(46);
+  margin-top: rem(46);
 }
 
 .team_p {
   font-family: var(--font-1);
-  font-size: 16px;
+  font-size: rem(16);
   line-height: 1.5;
   text-align: center;
   color: var(--dark-grey);
-  margin: 15px 0 0;
+  margin: rem(15) 0 0;
 }
 
 /* team-mireia */
@@ -242,32 +244,33 @@ li {
 .footer {
     width: 100vw;
     height: 250px;
-    font-size: 14px;
+    font-size: rem(14);
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
-    border-top: 1px solid var(--black);
+    padding-top: rem(30);
+    border-top: rem(1) solid var(--black);
   }
   
   .footer_copy {
     font-family: var(--font-1);
     color: var(--light-grey);
-    padding-bottom: 20px;
+    text-transform: uppercase;
+    padding-bottom: rem(20);
   }
   
   .footer_menu {
     font-family: var(--font-1);
     color: var(--dark-grey);
-    line-height: 20px;
-    padding-bottom: 30px;
+    line-height: rem(20);
+    padding-bottom: rem(30);
   }
   
   .footer_img {
-    height: 45px;
-    width: 115.9px;
-    padding-bottom: 45px;
+    height: rem(45);
+    width: rem(115.9);
+    padding-bottom: rem(45);
   }
   
   .footer_links {

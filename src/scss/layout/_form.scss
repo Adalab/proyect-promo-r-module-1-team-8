@@ -1,0 +1,93 @@
+.form {
+    font-family: $mainFont;
+    font-size: rem(14);
+    color: $colorText;
+    margin-top: rem(58);
+
+    &__input{
+ // -webkit-appearance: none;
+    // -moz-appearance: none;
+    // appearance: none;
+    display: block;
+    box-shadow: none;
+    width: rem(290);
+    height: rem(45);
+    margin: rem(7) rem(15);
+    padding-left: rem(15);
+         
+        &--email{
+            font-size: rem(16);
+            width: rem(290);
+            height: rem(45);
+            margin: rem(7) rem(15);
+            padding-left: rem(15);
+            color: $colorText;
+          
+        }
+    &--send {
+        background-color: $colorButton;
+        width: rem(290);
+        margin-top: rem(30);
+        margin-bottom: rem(60);
+        margin-left: rem(15);
+        margin-right: rem(15);
+        color: white;
+        font-family: $mainFont;
+        font-size: rem(16);
+        text-transform: uppercase;
+        padding: rem(11) rem(74) rem(12);
+        border-radius: rem(4);
+     
+    }
+    }
+
+    &__textarea {
+        width: rem(290);
+        margin-top: rem(7);
+        margin-left: rem(15);
+        margin-right: rem(15);
+        height: rem(105);
+        padding-left: rem(15);
+        font-family: $mainFont;
+        font-size: rem(14);
+    }
+    &__label {
+        padding-top: rem(13);
+        padding-bottom: rem(7);
+        padding-left: rem(15);
+    }
+}
+
+@media all and (min-width: 748px) {
+.form {
+    &__input{
+    width: rem(442);
+    margin: rem(7) rem(163);
+         
+        &--email{
+            width: rem(442);
+            margin: rem(7) rem(163);    
+        }
+
+    &--send {
+        width: rem(206);
+        margin-left: rem(399);
+        border-radius: rem(4);
+     
+    }
+    }
+
+    &__textarea {
+        width: rem(442);
+        margin: rem(7) rem(163);
+        height: rem(105);
+        padding-left: rem(15);
+        font-family: $mainFont;
+        font-size: rem(14);
+    }
+    &__label {
+        padding: 30px 104px 60px 163px;
+    }
+}
+}
+

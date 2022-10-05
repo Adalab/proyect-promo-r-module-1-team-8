@@ -61,20 +61,20 @@
         </section>
       </section>
 
-    <form action="/signup" method="post">
-      <label for="completeName">Nombre completo</label>
-      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" required />
+    <form action="/signup" method="post" class="form">
+      <label class="form__label" for="completeName">Nombre completo</label>
+      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required/>
 
-      <label for="emailAddress">Email</label>
-      <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress" required/>
+      <label class="form__label" for="emailAddress">Email</label>
+      <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress" class="form__input--email" required/>
 
-      <label for="telephone">Teléfono</label>
-      <input placeholder="Ej:123456789" type="tel" id="telephone" name="telephone" />
+      <label class="form__label" for="telephone">Teléfono</label>
+      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input"/>
 
-      <label for="comments">Mensaje</label>
-      <textarea id="comments" name="comments" rows="8" cols="80" required></textarea>
+      <label class="form__label" for="comments">Mensaje</label>
+      <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"required></textarea>
 
-      <input type="submit" value="Enviar" />
+      <input type="submit" value="Enviar" class="form__input--send" />
     </form>
 
 
@@ -84,9 +84,9 @@
         <p class="footer_copy">Breaking Coders &copy; 2022</p>
         <nav class="footer_menu">
             <ul>
-                <li><a class="footer_links" href="./index.html#team">EQUIPO</a></li>
-                <li><a class="footer_links"  href="./index.html#quienes-somos">QUIÉNES SOMOS</a></li>
-                <li><a class="footer_links"  href="./contact.html">CONTACTO</a></li>
+                <li><a class="footer_links" href="./index.html#team">equipo</a></li>
+                <li><a class="footer_links"  href="./index.html#quienes-somos">quiénes somos</a></li>
+                <li><a class="footer_links"  href="./contact.html">contacto</a></li>
             </ul>
         </nav>
         <div class="footer-img">

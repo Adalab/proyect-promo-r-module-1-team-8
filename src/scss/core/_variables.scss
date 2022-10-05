@@ -3,3 +3,10 @@ $defaultFontSize: 16;
 @function rem($pixels) {
     @return ($pixels / $defaultFontSize * 1rem);
   }
+
+  //colors
+  $colorButton: #099d8d;
+  $colorText: #54585a;
+
+  //fonts
+  $mainFont: "Open Sans", sans-serif;
