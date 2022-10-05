@@ -294,7 +294,6 @@ li {
   }
   .title{
     text-align: start;
-    padding-bottom: 0;
    
 
   }
@@ -307,7 +306,7 @@ li {
   // hero
   .lema{
     opacity: 0.8;
-    margin: 281px 281px 0 46px;
+    margin: 341px 281px 0 46px;
     padding: 15px 30px;
     width: 441px;
     height: 80px;
@@ -357,6 +356,28 @@ li {
   }
 
 @media all and (min-width: 1200px) {
+   // header
+   .header{
+    margin: 0 0 281px;
+    padding: 15px 45px 14px;
+   }
+
+   .title{
+    margin-left: 142px;
+   }
+   
+   .ul-nav{
+    margin-right: 138px;
+   }
+  // header
+  // hero
+  .lema{
+    width: 574px;
+    height: 90px;
+    margin: 400px 488px 0 138px;
+  }
+  // hero
+
   // team-mireia
   .team_div {
     margin-left: 299px;

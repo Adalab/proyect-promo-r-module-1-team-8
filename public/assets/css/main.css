@@ -442,15 +442,14 @@ li {
     opacity: 0.95;
     background-color: var(--dark-green); }
   .title {
-    text-align: start;
-    padding-bottom: 0; }
+    text-align: start; }
   .nav {
     display: flex;
     justify-content: end;
     background-color: var(--dark-green); }
   .lema {
     opacity: 0.8;
-    margin: 281px 281px 0 46px;
+    margin: 341px 281px 0 46px;
     padding: 15px 30px;
     width: 441px;
     height: 80px; }
@@ -483,6 +482,18 @@ li {
   /* footer-mireia */ }
 
 @media all and (min-width: 1200px) {
+  .header {
+    margin: 0 0 281px;
+    padding: 15px 45px 14px; }
+  .title {
+    margin-left: 142px;
+    margin-bottom: 0; }
+  .ul-nav {
+    margin-right: 138px; }
+  .lema {
+    width: 574px;
+    height: 90px;
+    margin: 400px 488px 0 138px; }
   .team_div {
     margin-left: 299px;
     margin-right: 300px; }
