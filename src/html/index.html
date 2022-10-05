@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”"rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/be943aedd0.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/be943aedd0.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Proyect 1 Team 8</title>
-</head>
+  </head>
 
-<body>
-<include src="./partials/header.html" title="header"></include>
- 
-<main>
-    <include src="./partials/hero.html" title="hero"></include>
-    
-    <section class="team" id="team">
-    <include src="./partials/team.html" title=""></include>  
-    </section>  
-    
+  <body>
+    <include src="./partials/header.html" title="header"></include>
 
-    <div class="rectangle"></div>
-    <section class="fortalezas-debilidades">
-      <include src="./partials/fortalezas-debilidades.html" title=""></include>  
-    </section>
-    
-    <section class="quienes-somos" id="quienes-somos">
-      <include src="./partials/quienes-somos.html" title=""></include> 
-    </section>
-        </main>
+    <main>
+      <include src="./partials/hero.html" title="hero"></include>
 
-        <include src="./partials/footer.html" title=""></include> 
+      <section class="team" id="team">
+        <include src="./partials/team.html" title=""></include>
+      </section>
 
-</main>
-        
-</body>
+      <div class="rectangle"></div>
+      <section class="strenghts-weaknesses">
+        <include
+          src="./partials/strenghts-weaknesses.html"
+          strenghts_h4="Fortalezas"
+          strenghts_p="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quas at incidunt alias illum rerum illo ratione quaerat provident, facilis consequuntur reprehenderit quidem autem vitae error molestias qui modi odit?"
+        ></include>
+        <include
+          src="./partials/strenghts-weaknesses.html"
+          strenghts_h4="Debilidades"
+          strenghts_p="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quas at incidunt alias illum rerum illo ratione quaerat provident, facilis consequuntur reprehenderit quidem autem vitae error molestias qui modi odit?"
+        ></include>
+      </section>
+
+      <section class="quienes-somos" id="quienes-somos">
+        <include src="./partials/quienes-somos.html" title=""></include>
+      </section>
+
+      <include src="./partials/footer.html" title=""></include>
+    </main>
+  </body>
 </html>
-
