@@ -32,7 +32,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 105px;
+  height: rem(105);
   width: 100vw;
   position: fixed;
   top: 0;
@@ -49,7 +49,7 @@
   height: 60px;
   text-align: center;
   padding-top: rem(23);
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .nav {
@@ -73,7 +73,7 @@
   margin-left: rem(16);
   margin-right: rem(17);
   margin-bottom: rem(5);
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .menu {
@@ -278,6 +278,40 @@ li {
   /* footer-mireia */
 
 @media all and (min-width: 768px) {
+
+  // header
+  .header{
+    flex-direction:row;
+    justify-content: space-between;
+    height: 60px;
+    margin: 0 0 281px;
+    padding: 15px 45px 14px;
+    opacity: 0.95;
+    background-color: var(--dark-green);
+  }
+  .title{
+    text-align: start;
+    padding-bottom: 0;
+   
+
+  }
+  .nav{
+      display: flex;
+      justify-content: end;
+      background-color: var(--dark-green);
+    }
+  // header
+  // hero
+  .lema{
+    opacity: 0.8;
+    margin: 281px 281px 0 46px;
+    padding: 15px 30px;
+    width: 441px;
+    height: 80px;
+  }
+  // hero
+
+
   // team-mireia
   .team_div {
     margin-left: 45px;

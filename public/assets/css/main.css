@@ -142,7 +142,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 105px;
+  height: 6.5625rem;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -158,7 +158,7 @@ table {
   height: 60px;
   text-align: center;
   padding-top: 1.4375rem;
-  text-transform: capitalize; }
+  text-transform: uppercase; }
 
 .nav {
   background-color: var(--light-green);
@@ -179,7 +179,7 @@ table {
   margin-left: 1rem;
   margin-right: 1.0625rem;
   margin-bottom: 0.3125rem;
-  text-transform: capitalize; }
+  text-transform: uppercase; }
 
 .menu {
   text-decoration: none;
@@ -364,6 +364,27 @@ li {
 
 /* footer-mireia */
 @media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    margin: 0 0 281px;
+    padding: 15px 45px 14px;
+    opacity: 0.95;
+    background-color: var(--dark-green); }
+  .title {
+    text-align: start;
+    padding-bottom: 0; }
+  .nav {
+    display: flex;
+    justify-content: end;
+    background-color: var(--dark-green); }
+  .lema {
+    opacity: 0.8;
+    margin: 281px 281px 0 46px;
+    padding: 15px 30px;
+    width: 441px;
+    height: 80px; }
   .team_div {
     margin-left: 45px;
     margin-right: 45px;
