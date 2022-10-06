@@ -177,17 +177,12 @@ table {
       margin: 0.4375rem 10.1875rem; }
     .form__input--send {
       width: 12.875rem;
-      margin-left: 24.9375rem;
-      border-radius: 0.25rem; }
+      margin-left: 24.9375rem; }
   .form__textarea {
     width: 27.625rem;
-    margin: 0.4375rem 10.1875rem;
-    height: 6.5625rem;
-    padding-left: 0.9375rem;
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.875rem; }
+    margin: 0.4375rem 10.1875rem; }
   .form__label {
-    padding: 30px 104px 60px 163px; } }
+    padding: 1.875rem 6.5rem 3.75rem 10.1875rem; } }
 
 :root {
   --font-1: "Open Sans", sans-serif;
@@ -226,6 +221,10 @@ table {
   text-align: center;
   padding-top: 1.4375rem;
   text-transform: uppercase; }
+
+.title a {
+  text-decoration: none;
+  color: var(--white); }
 
 .nav {
   background-color: var(--light-green);
@@ -486,8 +485,7 @@ li {
     margin: 0 0 281px;
     padding: 15px 45px 14px; }
   .title {
-    margin-left: 142px;
-    margin-bottom: 0; }
+    margin-left: 142px; }
   .ul-nav {
     margin-right: 138px; }
   .lema {
