@@ -86,3 +86,35 @@
 }
 }
 
+@media all and (min-width: 1200px) {
+    .form {
+        &__input{
+        width: rem(601);
+        margin: rem(7) rem(299);
+             
+            &--email{
+                width: rem(395);
+                margin-top: rem(7);
+                margin-bottom: rem(7); 
+                margin-left: rem(299);    
+            }
+    
+        &--send {
+            width: rem(278);
+            margin-left: rem(622);
+         
+        }
+        }
+    
+        &__textarea {
+            width: rem(601);
+            margin-top: rem(7);
+            margin-left: rem(299);
+            margin-bottom: rem(30);  
+        }
+        &__label {
+            padding: rem(45) rem(300) rem(120) rem(299);
+        }
+    }
+    }
+

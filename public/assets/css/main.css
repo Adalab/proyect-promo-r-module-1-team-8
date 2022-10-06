@@ -184,6 +184,26 @@ table {
   .form__label {
     padding: 1.875rem 6.5rem 3.75rem 10.1875rem; } }
 
+@media all and (min-width: 1200px) {
+  .form__input {
+    width: 37.5625rem;
+    margin: 0.4375rem 18.6875rem; }
+    .form__input--email {
+      width: 24.6875rem;
+      margin-top: 0.4375rem;
+      margin-bottom: 0.4375rem;
+      margin-left: 18.6875rem; }
+    .form__input--send {
+      width: 17.375rem;
+      margin-left: 38.875rem; }
+  .form__textarea {
+    width: 37.5625rem;
+    margin-top: 0.4375rem;
+    margin-left: 18.6875rem;
+    margin-bottom: 1.875rem; }
+  .form__label {
+    padding: 2.8125rem 18.75rem 7.5rem 18.6875rem; } }
+
 :root {
   --font-1: "Open Sans", sans-serif;
   --font-2: "Rubik", sans-serif;
