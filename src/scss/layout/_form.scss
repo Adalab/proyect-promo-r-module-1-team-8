@@ -2,7 +2,7 @@
     font-family: $mainFont;
     font-size: rem(14);
     color: $colorText;
-    margin-top: rem(58);
+    margin-top: rem(200);
 
     &__input{
  // -webkit-appearance: none;
@@ -52,6 +52,7 @@
         font-size: rem(14);
     }
     &__label {
+        display: inline-block;
         padding-top: rem(13);
         padding-bottom: rem(7);
         padding-left: rem(15);
@@ -78,10 +79,10 @@
 
     &__textarea {
         width: rem(442);
-        margin: rem(7) rem(163);
+        margin-left: rem(163);
     }
     &__label {
-        padding: rem(30) rem(104) rem(60) rem(163);
+        padding: rem(30) rem(104) rem(7) rem(163);
     }
 }
 }
@@ -94,7 +95,6 @@
              
             &--email{
                 width: rem(395);
-                margin-top: rem(7);
                 margin-bottom: rem(7); 
                 margin-left: rem(299);    
             }
@@ -108,12 +108,10 @@
     
         &__textarea {
             width: rem(601);
-            margin-top: rem(7);
-            margin-left: rem(299);
-            margin-bottom: rem(30);  
+            margin-left: rem(299); 
         }
         &__label {
-            padding: rem(45) rem(300) rem(120) rem(299);
+            padding: rem(13) rem(300) rem(7) rem(299);
         }
     }
     }

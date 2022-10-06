@@ -262,13 +262,14 @@ li {
   .footer_copy {
     font-family: var(--font-1);
     color: var(--light-grey);
-    text-transform: uppercase;
+    
     padding-bottom: rem(20);
   }
   
   .footer_menu {
     font-family: var(--font-1);
     color: var(--dark-grey);
+    text-transform: uppercase;
     line-height: rem(20);
     padding-bottom: rem(30);
   }
@@ -276,7 +277,7 @@ li {
   .footer_img {
     height: rem(45);
     width: rem(115.9);
-    padding-bottom: rem(45);
+  
   }
   
   .footer_links {

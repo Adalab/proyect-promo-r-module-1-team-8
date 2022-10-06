@@ -126,7 +126,7 @@ table {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   color: #54585a;
-  margin-top: 3.625rem; }
+  margin-top: 12.5rem; }
   .form__input {
     display: block;
     box-shadow: none;
@@ -164,6 +164,7 @@ table {
     font-family: "Open Sans", sans-serif;
     font-size: 0.875rem; }
   .form__label {
+    display: inline-block;
     padding-top: 0.8125rem;
     padding-bottom: 0.4375rem;
     padding-left: 0.9375rem; }
@@ -180,9 +181,9 @@ table {
       margin-left: 24.9375rem; }
   .form__textarea {
     width: 27.625rem;
-    margin: 0.4375rem 10.1875rem; }
+    margin-left: 10.1875rem; }
   .form__label {
-    padding: 1.875rem 6.5rem 3.75rem 10.1875rem; } }
+    padding: 1.875rem 6.5rem 0.4375rem 10.1875rem; } }
 
 @media all and (min-width: 1200px) {
   .form__input {
@@ -190,7 +191,6 @@ table {
     margin: 0.4375rem 18.6875rem; }
     .form__input--email {
       width: 24.6875rem;
-      margin-top: 0.4375rem;
       margin-bottom: 0.4375rem;
       margin-left: 18.6875rem; }
     .form__input--send {
@@ -198,11 +198,9 @@ table {
       margin-left: 38.875rem; }
   .form__textarea {
     width: 37.5625rem;
-    margin-top: 0.4375rem;
-    margin-left: 18.6875rem;
-    margin-bottom: 1.875rem; }
+    margin-left: 18.6875rem; }
   .form__label {
-    padding: 2.8125rem 18.75rem 7.5rem 18.6875rem; } }
+    padding: 0.8125rem 18.75rem 0.4375rem 18.6875rem; } }
 
 :root {
   --font-1: "Open Sans", sans-serif;
@@ -432,19 +430,18 @@ li {
 .footer_copy {
   font-family: var(--font-1);
   color: var(--light-grey);
-  text-transform: uppercase;
   padding-bottom: 1.25rem; }
 
 .footer_menu {
   font-family: var(--font-1);
   color: var(--dark-grey);
+  text-transform: uppercase;
   line-height: 1.25rem;
   padding-bottom: 1.875rem; }
 
 .footer_img {
   height: 2.8125rem;
-  width: 7.24375rem;
-  padding-bottom: 2.8125rem; }
+  width: 7.24375rem; }
 
 .footer_links {
   text-decoration: none;
