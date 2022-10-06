@@ -72,7 +72,6 @@
     &--send {
         width: rem(206);
         margin-left: rem(399);
-        border-radius: rem(4);
      
     }
     }
@@ -80,13 +79,9 @@
     &__textarea {
         width: rem(442);
         margin: rem(7) rem(163);
-        height: rem(105);
-        padding-left: rem(15);
-        font-family: $mainFont;
-        font-size: rem(14);
     }
     &__label {
-        padding: 30px 104px 60px 163px;
+        padding: rem(30) rem(104) rem(60) rem(163);
     }
 }
 }
