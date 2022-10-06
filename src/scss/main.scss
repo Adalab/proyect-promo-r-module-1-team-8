@@ -69,7 +69,7 @@
 
 .ul-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .li-nav {
@@ -77,8 +77,7 @@
   text-align: center;
   font-size: rem(15);
   margin-top: rem(5);
-  margin-left: rem(16);
-  margin-right: rem(17);
+
   margin-bottom: rem(5);
   text-transform: uppercase;
 }
@@ -97,7 +96,7 @@
   width: 100vw;
   height: rem(421);
   background-image: url("../images/breaking-code.jpg");
-  background-size: 100vw 100vw;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -301,12 +300,11 @@ li {
   }
   .title{
     text-align: start;
+    background-color: transparent;
    
 
   }
   .nav{
-      display: flex;
-      justify-content: end;
       background-color: var(--dark-green);
     }
   // header
@@ -381,7 +379,6 @@ li {
   .lema{
     width: 574px;
     height: 90px;
-    margin: 400px 488px 0 138px;
   }
   // hero
 

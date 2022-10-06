@@ -253,15 +253,13 @@ table {
 
 .ul-nav {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .li-nav {
   display: inline-block;
   text-align: center;
   font-size: 0.9375rem;
   margin-top: 0.3125rem;
-  margin-left: 1rem;
-  margin-right: 1.0625rem;
   margin-bottom: 0.3125rem;
   text-transform: uppercase; }
 
@@ -277,7 +275,7 @@ table {
   width: 100vw;
   height: 26.3125rem;
   background-image: url("../images/breaking-code.jpg");
-  background-size: 100vw 100vw;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -458,10 +456,9 @@ li {
     opacity: 0.95;
     background-color: var(--dark-green); }
   .title {
-    text-align: start; }
+    text-align: start;
+    background-color: transparent; }
   .nav {
-    display: flex;
-    justify-content: end;
     background-color: var(--dark-green); }
   .lema {
     opacity: 0.8;
@@ -507,8 +504,7 @@ li {
     margin-right: 138px; }
   .lema {
     width: 574px;
-    height: 90px;
-    margin: 400px 488px 0 138px; }
+    height: 90px; }
   .team_div {
     margin-left: 299px;
     margin-right: 300px; }
