@@ -14,3 +14,5 @@ ____
 Laura Valdenebro Álvarez
 
 Filóloga hispánica, profesora, lingüista computacional y, ahora, programadora web. Soy una persona con muchas ganas de aprender y avanzar, por lo que no me da miedo enfrentarme a lo desconocido. Cosas importantes sobre mí: siempre digo que sí a los planes y me encanta ofrecer una perspectiva diferente en todo tipo de situaciones. ¡Conmigo cerca es muy difícil que te aburras!
+
+Walter White supo hacer de sus debilidades fortalezas: gracias a sus conocimientos en química consiguió materias primas a partir de simples productos de droguería. Nosotras, como Walter White, destacamos por nuestros conocimientos previos de trabajo en equipo, comunicación fluida y asertiva, compromiso y perseverancia, que sumado a nuestros recientes conocimientos en programación nos convierte en un gran equipo de Breaking Coders! 
