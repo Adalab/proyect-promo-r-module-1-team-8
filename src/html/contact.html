@@ -21,10 +21,8 @@
   <include src="./partials/header.html" title="header"></include>
   <!--contacts section-->
   <main>
-    <!-- <section class="hero" id="hero">
-        <include src="./partials/hero.html" title="hero"></include> -->
-
-
+    <section class="hero">
+    </section>
 
     <section class="team" id="team">
       <include src="./partials/team.html" team_h3="Contacto"
@@ -41,12 +39,15 @@
         <label class="form__label" for="completeName">Nombre completo<span class="form__input--color">*</span></label>
         <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required />
 
+        <fieldset class="email_phone">
+          
         <label class="form__label" for="emailAddress">Email<span class="form__input--color">*</span></label>
-        <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
-          class="form__input--email" required />
+        <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress" class="form__input--email" required />
 
         <label class="form__label" for="telephone">Teléfono</label>
         <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input" />
+
+      </>
 
         <label class="form__label" for="comments">Mensaje<span class="form__input--color">*</span></label>
         <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"
