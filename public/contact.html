@@ -1,101 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/be943aedd0.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <title>Proyect 1 Team 8</title>
-  </head>
 
-  <body>
-    <!--header-->
-    <header class="header">
-      <h1 class="title"><a href="../index.html">Breaking code</a></h1>
-      <nav class="nav">
-        <ul class="ul-nav">
-          <li class="li-nav">
-            <a class="menu" href="../index.html#team">Equipo</a>
-          </li>
-          <li class="li-nav">
-            <a class="menu" href="../index.html#quienes-somos">Quiénes somos</a>
-          </li>
-          <li class="li-nav">
-            <a class="menu" href="../contact.html">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/be943aedd0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <title>Proyect 1 Team 8</title>
+</head>
 
-    <!--contacts section-->
-    <main>
-      <!-- <section class="hero" id="hero">
+<body>
+  <!--header-->
+  <header class="header">
+    <h1 class="title"><a href="../index.html">Breaking code</a></h1>
+    <nav class="nav">
+      <ul class="ul-nav">
+        <li class="li-nav">
+          <a class="menu" href="../index.html#team">Equipo</a>
+        </li>
+        <li class="li-nav">
+          <a class="menu" href="../index.html#quienes-somos">Quiénes somos</a>
+        </li>
+        <li class="li-nav">
+          <a class="menu" href="../contact.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--contacts section-->
+  <main>
+    <!-- <section class="hero" id="hero">
         <section class="hero">
           <h2 class="lema">Para programar solo necesitas conocer la receta, y nosotras nos la sabemos al pie de la letra.</h2>
         </section>
  -->
 
-        
 
-        <section class="team" id="team">
-              <div class="team_div">
-                  <h3 class="team_h3">Contacto</h3>
-                  <p class="team_p">Si lo que estás buscando es la mejor receta para tu código, un código con el que enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:</p>
-                  <p class="team_p"></p>
-              </div>
 
-          <p class="team__p">Todos los campos marcados con <div class="form__input--color">*</div> son obligatorios.</p>
-          
-        </section>
-      </section>
+    <section class="team" id="team">
+          <div class="team_div">
+              <h3 class="team_h3">Contacto</h3>
+              <p class="team_p">Si lo que estás buscando es la mejor receta para tu código, un código con el que enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:</p>
+              <p class="team_p"></p>
+          </div>
+
+      <p class="team__p">Todos los campos marcados con <span class="form__input--color">*</span> son obligatorios.
+      </p>
+
+    </section>
+    </section>
 
     <form action="/signup" method="post" class="form">
-      <label class="form__label" for="completeName">Nombre completo<div class="form__input--color">*</div></label>
-      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required/>
+      <label class="form__label" for="completeName">Nombre completo<span class="form__input--color">*</span></label>
+      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required />
 
-      <label class="form__label" for="emailAddress">Email<div class="form__input--color">*</div></label>
-      <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress" class="form__input--email" required/>
+      <label class="form__label" for="emailAddress">Email<span class="form__input--color">*</span></label>
+      <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
+        class="form__input--email" required />
 
       <label class="form__label" for="telephone">Teléfono</label>
-      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input"/>
+      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input" />
 
-      <label class="form__label" for="comments">Mensaje<div class="form__input--color">*</div></label>
-      <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"required></textarea>
+      <label class="form__label" for="comments">Mensaje<span class="form__input--color">*</span></label>
+      <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"
+        required></textarea>
 
       <input type="submit" value="Enviar" class="form__input--send" />
     </form>
 
 
-    </main>
-    <!--footer-->
-    <footer class="footer">
-        <p class="footer_copy">Breaking Coders &copy; 2022</p>
-        <nav class="footer_menu">
-            <ul>
-                <li><a class="footer_links" href="./index.html#team">equipo</a></li>
-                <li><a class="footer_links"  href="./index.html#quienes-somos">quiénes somos</a></li>
-                <li><a class="footer_links"  href="./contact.html">contacto</a></li>
-            </ul>
-        </nav>
-        <div class="footer-img">
-            <img src="https://github.com/Adalab/pw-project-promo-x-module-1-team-profes/blob/main/logo-adalab.png?raw=true" alt="logo" class="footer_img">
-        </div>
-    <!--outside main-->
-  </body>
+  </main>
+  <!--footer-->
+  <footer class="footer">
+      <p class="footer_copy">Breaking Coders &copy; 2022</p>
+      <nav class="footer_menu">
+          <ul>
+              <li><a class="footer_links" href="./index.html#team">equipo</a></li>
+              <li><a class="footer_links"  href="./index.html#quienes-somos">quiénes somos</a></li>
+              <li><a class="footer_links"  href="./contact.html">contacto</a></li>
+          </ul>
+      </nav>
+      <div class="footer-img">
+          <img src="https://github.com/Adalab/pw-project-promo-x-module-1-team-profes/blob/main/logo-adalab.png?raw=true" alt="logo" class="footer_img">
+      </div>
+  <!--outside main-->
+</body>
+
 </html>

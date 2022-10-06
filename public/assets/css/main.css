@@ -154,6 +154,8 @@ table {
       text-transform: uppercase;
       padding: 0.6875rem 4.625rem 0.75rem;
       border-radius: 0.25rem; }
+    .form__input--color {
+      color: #14d9c4; }
   .form__textarea {
     width: 18.125rem;
     margin-top: 0.4375rem;

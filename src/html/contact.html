@@ -1,66 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/be943aedd0.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <title>Proyect 1 Team 8</title>
-  </head>
 
-  <body>
-    <!--header-->
-    <include src="./partials/header.html" title="header"></include>
-    <!--contacts section-->
-    <main>
-      <!-- <section class="hero" id="hero">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/be943aedd0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <title>Proyect 1 Team 8</title>
+</head>
+
+<body>
+  <!--header-->
+  <include src="./partials/header.html" title="header"></include>
+  <!--contacts section-->
+  <main>
+    <!-- <section class="hero" id="hero">
         <include src="./partials/hero.html" title="hero"></include> -->
 
-        
 
-        <section class="team" id="team">
-          <include src="./partials/team.html" team_h3="Contacto" team_p="Si lo que estás buscando es la mejor receta para tu código, un código con el que enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:"></include>
-          <p class="team__p">Todos los campos marcados con <div class="form__input--color">*</div> son obligatorios.</p>
-          
-        </section>
-      </section>
+
+    <section class="team" id="team">
+      <include src="./partials/team.html" team_h3="Contacto"
+        team_p="Si lo que estás buscando es la mejor receta para tu código, un código con el que enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:">
+      </include>
+      <p class="team__p">Todos los campos marcados con <span class="form__input--color">*</span> son obligatorios.
+      </p>
+
+    </section>
+    </section>
 
     <form action="/signup" method="post" class="form">
-      <label class="form__label" for="completeName">Nombre completo<div class="form__input--color">*</div></label>
-      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required/>
+      <label class="form__label" for="completeName">Nombre completo<span class="form__input--color">*</span></label>
+      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required />
 
-      <label class="form__label" for="emailAddress">Email<div class="form__input--color">*</div></label>
-      <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress" class="form__input--email" required/>
+      <label class="form__label" for="emailAddress">Email<span class="form__input--color">*</span></label>
+      <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
+        class="form__input--email" required />
 
       <label class="form__label" for="telephone">Teléfono</label>
-      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input"/>
+      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input" />
 
-      <label class="form__label" for="comments">Mensaje<div class="form__input--color">*</div></label>
-      <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"required></textarea>
+      <label class="form__label" for="comments">Mensaje<span class="form__input--color">*</span></label>
+      <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"
+        required></textarea>
 
       <input type="submit" value="Enviar" class="form__input--send" />
     </form>
 
 
-    </main>
-    <!--footer-->
-    <include src="./partials/footer.html" title=""></include>
-    <!--outside main-->
-  </body>
+  </main>
+  <!--footer-->
+  <include src="./partials/footer.html" title=""></include>
+  <!--outside main-->
+</body>
+
 </html>

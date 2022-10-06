@@ -37,7 +37,9 @@
         text-transform: uppercase;
         padding: rem(11) rem(74) rem(12);
         border-radius: rem(4);
-     
+        }
+    &--color {
+        color: $colorIcon;
     }
     }
 
