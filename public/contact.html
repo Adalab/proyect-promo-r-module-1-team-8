@@ -60,22 +60,22 @@
                   <p class="team_p"></p>
               </div>
 
-
+          <p class="team__p">Todos los campos marcados con <div class="form__input--color">*</div> son obligatorios.</p>
           
         </section>
       </section>
 
     <form action="/signup" method="post" class="form">
-      <label class="form__label" for="completeName">Nombre completo</label>
+      <label class="form__label" for="completeName">Nombre completo<div class="form__input--color">*</div></label>
       <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required/>
 
-      <label class="form__label" for="emailAddress">Email</label>
+      <label class="form__label" for="emailAddress">Email<div class="form__input--color">*</div></label>
       <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress" class="form__input--email" required/>
 
       <label class="form__label" for="telephone">Teléfono</label>
       <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input"/>
 
-      <label class="form__label" for="comments">Mensaje</label>
+      <label class="form__label" for="comments">Mensaje<div class="form__input--color">*</div></label>
       <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"required></textarea>
 
       <input type="submit" value="Enviar" class="form__input--send" />

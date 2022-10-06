@@ -95,8 +95,7 @@
 .hero {
   width: 100vw;
   height: rem(421);
-  background-image: url("../images/breaking-code.jpg");
-  background-size: 100vw 100vh;
+  background-image: url("../images/breaking-code-320.jpg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -135,7 +134,7 @@
   font-size: rem(24);
   text-transform: uppercase; 
   padding-top: rem(46);
-  margin-top: rem(46);
+  margin-top: rem(76);
 }
 
 .team_p {
@@ -261,7 +260,6 @@ li {
   .footer_copy {
     font-family: var(--font-1);
     color: var(--light-grey);
-    
     padding-bottom: rem(20);
   }
   
@@ -316,6 +314,9 @@ li {
     width: 441px;
     height: 80px;
   }
+.hero{
+  background-image: url("../images/Breaking-code-768.jpg");
+}
   // hero
 
 
@@ -324,6 +325,11 @@ li {
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 30px;
+  }
+
+  .team_h3 {
+    margin-top: rem(45);
+    padding-top: 0;
   }
    // team-
 
@@ -379,6 +385,11 @@ li {
   .lema{
     width: 574px;
     height: 90px;
+  }
+
+  .hero{
+    background-image: url("../images/Breaking-code.jpg");
+    background-size: 100vw 60vh;
   }
   // hero
 

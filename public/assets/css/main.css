@@ -274,8 +274,7 @@ table {
 .hero {
   width: 100vw;
   height: 26.3125rem;
-  background-image: url("../images/breaking-code.jpg");
-  background-size: 100vw 100vh;
+  background-image: url("../images/breaking-code-320.jpg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -310,7 +309,7 @@ table {
   font-size: 1.5rem;
   text-transform: uppercase;
   padding-top: 2.875rem;
-  margin-top: 2.875rem; }
+  margin-top: 4.75rem; }
 
 .team_p {
   font-family: var(--font-1);
@@ -466,10 +465,15 @@ li {
     padding: 15px 30px;
     width: 441px;
     height: 80px; }
+  .hero {
+    background-image: url("../images/Breaking-code-768.jpg"); }
   .team_div {
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 30px; }
+  .team_h3 {
+    margin-top: 2.8125rem;
+    padding-top: 0; }
   /*Start strenghts*/
   .strenghts-weaknesses {
     display: flex;
@@ -505,6 +509,9 @@ li {
   .lema {
     width: 574px;
     height: 90px; }
+  .hero {
+    background-image: url("../images/Breaking-code.jpg");
+    background-size: 100vw 60vh; }
   .team_div {
     margin-left: 299px;
     margin-right: 300px; }
