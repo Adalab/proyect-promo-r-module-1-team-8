@@ -321,19 +321,19 @@ table {
 
 /* team-mireia */
 /*Start strenghts*/
-/* [TODO: valdenebro] change px to rem*/
 .strenghts-weaknesses {
   background-color: rgba(84, 88, 90, 0.2);
   /*rgb code of the color + opacity*/
-  padding: 30px 15px 15px 15px; }
+  padding: 1.875rem 0.9375rem 0.9375rem 0.9375rem; }
 
 .strenghts {
-  margin-bottom: 30px; }
+  margin-bottom: 1.875rem; }
 
 .strenghts_h4 {
+  text-transform: capitalize;
   color: var(--dark-green);
   font-family: var(--font-2);
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
   line-height: 2.05;
   text-align: center; }
@@ -341,14 +341,14 @@ table {
 .strenghts_p {
   color: var(--dark-grey);
   font-family: var(--font-1);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   text-align: center; }
 
 .rectangle {
   background-color: white;
-  height: 30px;
-  width: 30px;
+  height: 1.875rem;
+  width: 1.875rem;
   margin: auto;
   transform: translateY(50%) rotate(45deg); }
 
@@ -477,10 +477,10 @@ li {
   /*Start strenghts*/
   .strenghts-weaknesses {
     display: flex;
-    padding: 45px 30px 30px 30px;
-    gap: 30px; }
+    padding: 2.8125rem 1.875rem 1.875rem 1.875rem;
+    gap: 1.875rem; }
   .strenghts_h4 {
-    margin-bottom: 15px; }
+    margin-bottom: 0.9375rem; }
   /*End strenghts*/
   /* footer-mireia */
   .footer {
@@ -518,9 +518,9 @@ li {
   /*Start strenghts*/
   .strenghts-weaknesses {
     display: flex;
-    padding-left: 45px;
-    padding-right: 45px;
-    gap: 30px; }
+    padding-left: 2.8125rem;
+    padding-right: 2.8125rem;
+    gap: 1.875rem; }
   /*End strenghts*/
   /* footer-mireia */
   .footer {

@@ -149,18 +149,18 @@
 /* team-mireia */
 
 /*Start strenghts*/
-/* [TODO: valdenebro] change px to rem*/
 .strenghts-weaknesses {
   background-color: rgba(84, 88, 90, 0.2); /*rgb code of the color + opacity*/
-  padding: 30px 15px 15px 15px;
+  padding: rem(30) rem(15) rem(15) rem(15);
 }
 .strenghts {
-  margin-bottom: 30px;
+  margin-bottom: rem(30);
 }
 .strenghts_h4 {
+  text-transform: capitalize;
   color: var(--dark-green);
   font-family: var(--font-2);
-  font-size: 22px;
+  font-size: rem(22);
   font-weight: 500;
   line-height: 2.05;
   text-align: center;
@@ -168,14 +168,14 @@
 .strenghts_p {
   color: var(--dark-grey);
   font-family: var(--font-1);
-  font-size: 16px;
+  font-size: rem(16);
   line-height: 1.5;
   text-align: center;
 }
 .rectangle {
   background-color: white;
-  height: 30px;
-  width: 30px;
+  height: rem(30);
+  width: rem(30);
   margin: auto;
   transform: translateY(50%) rotate(45deg);
 }
@@ -336,11 +336,11 @@ li {
   /*Start strenghts*/
   .strenghts-weaknesses {
     display: flex;
-    padding: 45px 30px 30px 30px;
-    gap: 30px;
+    padding: rem(45) rem(30) rem(30) rem(30);
+    gap: rem(30);
   }
   .strenghts_h4 {
-    margin-bottom: 15px;
+    margin-bottom: rem(15);
   }
   /*End strenghts*/
 
@@ -403,9 +403,9 @@ li {
   /*Start strenghts*/
   .strenghts-weaknesses {
     display: flex;
-    padding-left: 45px;
-    padding-right: 45px;
-    gap: 30px;
+    padding-left: rem(45);
+    padding-right: rem(45);
+    gap: rem(30);
   }
   /*End strenghts*/
   
