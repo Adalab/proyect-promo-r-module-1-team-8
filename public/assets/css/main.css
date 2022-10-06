@@ -122,11 +122,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.team__p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: #54585a; }
+
 .form {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   color: #54585a;
-  margin-top: 12.5rem; }
+  margin-top: 3.125rem; }
   .form__input {
     display: block;
     box-shadow: none;
@@ -167,6 +173,7 @@ table {
     font-size: 0.875rem; }
   .form__label {
     display: inline-block;
+    width: 100vw;
     padding-top: 0.8125rem;
     padding-bottom: 0.4375rem;
     padding-left: 0.9375rem; }

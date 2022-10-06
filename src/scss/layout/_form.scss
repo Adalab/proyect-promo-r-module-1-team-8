@@ -1,8 +1,14 @@
+.team__p {
+    font-family: $mainFont;
+    font-size: 12px;
+    text-align: center;
+    color: $colorText;
+}
 .form {
     font-family: $mainFont;
     font-size: rem(14);
     color: $colorText;
-    margin-top: rem(200);
+    margin-top: rem(50);
 
     &__input{
  // -webkit-appearance: none;
@@ -55,6 +61,7 @@
     }
     &__label {
         display: inline-block;
+        width: 100vw;
         padding-top: rem(13);
         padding-bottom: rem(7);
         padding-left: rem(15);
