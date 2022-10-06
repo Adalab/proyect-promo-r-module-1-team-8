@@ -1,15 +1,16 @@
 .team__p {
-    font-family: $mainFont;
-    font-size: 12px;
-    text-align: center;
     color: $colorText;
+    font-size: rem(12);
+    font-family: $mainFont;
+    text-align: center;
+
 }
 .form {
     font-family: $mainFont;
     font-size: rem(14);
     color: $colorText;
     margin-top: rem(50);
-
+    
     &__input{
  // -webkit-appearance: none;
     // -moz-appearance: none;
@@ -43,7 +44,7 @@
         text-transform: uppercase;
         padding: rem(11) rem(74) rem(12);
         border-radius: rem(4);
-        }
+    }
     &--color {
         color: $colorIcon;
     }
@@ -61,10 +62,10 @@
     }
     &__label {
         display: inline-block;
-        width: 100vw;
         padding-top: rem(13);
         padding-bottom: rem(7);
         padding-left: rem(15);
+        width: 100vw;
     }
 }
 

@@ -36,23 +36,25 @@
     </section>
     </section>
 
-    <form action="/signup" method="post" class="form">
-      <label class="form__label" for="completeName">Nombre completo<span class="form__input--color">*</span></label>
-      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required />
+    <div class="form-container">
+      <form action="/signup" method="post" class="form">
+        <label class="form__label" for="completeName">Nombre completo<span class="form__input--color">*</span></label>
+        <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required />
 
-      <label class="form__label" for="emailAddress">Email<span class="form__input--color">*</span></label>
-      <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
-        class="form__input--email" required />
+        <label class="form__label" for="emailAddress">Email<span class="form__input--color">*</span></label>
+        <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
+          class="form__input--email" required />
 
-      <label class="form__label" for="telephone">Teléfono</label>
-      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input" />
+        <label class="form__label" for="telephone">Teléfono</label>
+        <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input" />
 
-      <label class="form__label" for="comments">Mensaje<span class="form__input--color">*</span></label>
-      <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"
-        required></textarea>
+        <label class="form__label" for="comments">Mensaje<span class="form__input--color">*</span></label>
+        <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"
+          required></textarea>
 
-      <input type="submit" value="Enviar" class="form__input--send" />
-    </form>
+        <input type="submit" value="Enviar" class="form__input--send" />
+      </form>
+    </div>
 
 
   </main>

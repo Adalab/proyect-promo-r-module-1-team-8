@@ -123,10 +123,10 @@ table {
   border-spacing: 0; }
 
 .team__p {
+  color: #54585a;
+  font-size: 0.75rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  text-align: center;
-  color: #54585a; }
+  text-align: center; }
 
 .form {
   font-family: "Open Sans", sans-serif;
@@ -173,10 +173,10 @@ table {
     font-size: 0.875rem; }
   .form__label {
     display: inline-block;
-    width: 100vw;
     padding-top: 0.8125rem;
     padding-bottom: 0.4375rem;
-    padding-left: 0.9375rem; }
+    padding-left: 0.9375rem;
+    width: 100vw; }
 
 @media all and (min-width: 748px) {
   .form__input {
