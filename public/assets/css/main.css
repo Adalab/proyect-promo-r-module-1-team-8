@@ -177,17 +177,32 @@ table {
       margin: 0.4375rem 10.1875rem; }
     .form__input--send {
       width: 12.875rem;
-      margin-left: 24.9375rem;
-      border-radius: 0.25rem; }
+      margin-left: 24.9375rem; }
   .form__textarea {
     width: 27.625rem;
-    margin: 0.4375rem 10.1875rem;
-    height: 6.5625rem;
-    padding-left: 0.9375rem;
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.875rem; }
+    margin: 0.4375rem 10.1875rem; }
   .form__label {
-    padding: 30px 104px 60px 163px; } }
+    padding: 1.875rem 6.5rem 3.75rem 10.1875rem; } }
+
+@media all and (min-width: 1200px) {
+  .form__input {
+    width: 37.5625rem;
+    margin: 0.4375rem 18.6875rem; }
+    .form__input--email {
+      width: 24.6875rem;
+      margin-top: 0.4375rem;
+      margin-bottom: 0.4375rem;
+      margin-left: 18.6875rem; }
+    .form__input--send {
+      width: 17.375rem;
+      margin-left: 38.875rem; }
+  .form__textarea {
+    width: 37.5625rem;
+    margin-top: 0.4375rem;
+    margin-left: 18.6875rem;
+    margin-bottom: 1.875rem; }
+  .form__label {
+    padding: 2.8125rem 18.75rem 7.5rem 18.6875rem; } }
 
 :root {
   --font-1: "Open Sans", sans-serif;
@@ -226,6 +241,10 @@ table {
   text-align: center;
   padding-top: 1.4375rem;
   text-transform: uppercase; }
+
+.title a {
+  text-decoration: none;
+  color: var(--white); }
 
 .nav {
   background-color: var(--light-green);

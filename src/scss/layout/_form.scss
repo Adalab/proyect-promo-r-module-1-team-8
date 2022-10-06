@@ -72,7 +72,6 @@
     &--send {
         width: rem(206);
         margin-left: rem(399);
-        border-radius: rem(4);
      
     }
     }
@@ -80,14 +79,42 @@
     &__textarea {
         width: rem(442);
         margin: rem(7) rem(163);
-        height: rem(105);
-        padding-left: rem(15);
-        font-family: $mainFont;
-        font-size: rem(14);
     }
     &__label {
-        padding: 30px 104px 60px 163px;
+        padding: rem(30) rem(104) rem(60) rem(163);
     }
 }
 }
+
+@media all and (min-width: 1200px) {
+    .form {
+        &__input{
+        width: rem(601);
+        margin: rem(7) rem(299);
+             
+            &--email{
+                width: rem(395);
+                margin-top: rem(7);
+                margin-bottom: rem(7); 
+                margin-left: rem(299);    
+            }
+    
+        &--send {
+            width: rem(278);
+            margin-left: rem(622);
+         
+        }
+        }
+    
+        &__textarea {
+            width: rem(601);
+            margin-top: rem(7);
+            margin-left: rem(299);
+            margin-bottom: rem(30);  
+        }
+        &__label {
+            padding: rem(45) rem(300) rem(120) rem(299);
+        }
+    }
+    }
 
