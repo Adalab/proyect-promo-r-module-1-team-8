@@ -21,3 +21,13 @@ Maria Lopez Aparicio
 Junior frontend developer. Editora audiovisual y educadora infantil antes de enamorarme de la programación. Una chica responsable y a su vez divertida, llena de energia y creatividad que acaba de aterrizar en el mundo del front. Sin miedo a explorar cada nuevo rincón de este planeta.
 
 Walter White supo hacer de sus debilidades fortalezas: gracias a sus conocimientos en química consiguió materias primas a partir de simples productos de droguería. Nosotras, como Walter White, destacamos por nuestros conocimientos previos de trabajo en equipo, comunicación fluida y asertiva, compromiso y perseverancia, que sumado a nuestros recientes conocimientos en programación nos convierte en un gran equipo de Breaking Coders! 
+Mireia Maldonado Parra
+
+Sevillana y graduada en Comunicación Audiovisual. He probado suerte como guionista, doctoranda y bibliotecaria. Como eso no daba de comer a mis dos perritos, ahora he decidido reinventarme y alejarme de páginas de papel para plasmar mi creatividad en un nuevo formato: el de las páginas web. 
+
+
+Fortalezas
+Walter White supo hacer de sus debilidades fortalezas: gracias a sus conocimientos en química consiguió materias primas a partir de simples productos de droguería. Nosotras, como Walter White, destacamos por nuestros conocimientos previos de trabajo en equipo, comunicación fluida y asertiva, compromiso y perseverancia, que sumado a nuestros recientes conocimientos en programación nos convierte en un gran equipo de Breaking Coders! 
+
+Debilidades
+Aunque en algún momento durante el desarrollo podrá parecer que el código va a acabar como la caravana de Walter, os podemos asegurar que todo terminará por cobrar sentido. Quedará limpio, optimizado y, sobre todo, será eficiente. El producto resultante será de la mejor calidad.

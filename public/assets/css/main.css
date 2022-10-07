@@ -122,11 +122,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.team__p {
+  color: #54585a;
+  font-size: 0.75rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center; }
+
 .form {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   color: #54585a;
-  margin-top: 3.625rem; }
+  margin-top: 3.125rem; }
   .form__input {
     display: block;
     box-shadow: none;
@@ -154,6 +160,8 @@ table {
       text-transform: uppercase;
       padding: 0.6875rem 4.625rem 0.75rem;
       border-radius: 0.25rem; }
+    .form__input--color {
+      color: #14d9c4; }
   .form__textarea {
     width: 18.125rem;
     margin-top: 0.4375rem;
@@ -164,9 +172,11 @@ table {
     font-family: "Open Sans", sans-serif;
     font-size: 0.875rem; }
   .form__label {
+    display: inline-block;
     padding-top: 0.8125rem;
     padding-bottom: 0.4375rem;
-    padding-left: 0.9375rem; }
+    padding-left: 0.9375rem;
+    width: 100vw; }
 
 @media all and (min-width: 748px) {
   .form__input {
@@ -180,9 +190,9 @@ table {
       margin-left: 24.9375rem; }
   .form__textarea {
     width: 27.625rem;
-    margin: 0.4375rem 10.1875rem; }
+    margin-left: 10.1875rem; }
   .form__label {
-    padding: 1.875rem 6.5rem 3.75rem 10.1875rem; } }
+    padding: 1.875rem 6.5rem 0.4375rem 10.1875rem; } }
 
 @media all and (min-width: 1200px) {
   .form__input {
@@ -190,7 +200,6 @@ table {
     margin: 0.4375rem 18.6875rem; }
     .form__input--email {
       width: 24.6875rem;
-      margin-top: 0.4375rem;
       margin-bottom: 0.4375rem;
       margin-left: 18.6875rem; }
     .form__input--send {
@@ -198,11 +207,9 @@ table {
       margin-left: 38.875rem; }
   .form__textarea {
     width: 37.5625rem;
-    margin-top: 0.4375rem;
-    margin-left: 18.6875rem;
-    margin-bottom: 1.875rem; }
+    margin-left: 18.6875rem; }
   .form__label {
-    padding: 2.8125rem 18.75rem 7.5rem 18.6875rem; } }
+    padding: 0.8125rem 18.75rem 0.4375rem 18.6875rem; } }
 
 :root {
   --font-1: "Open Sans", sans-serif;
@@ -255,15 +262,13 @@ table {
 
 .ul-nav {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .li-nav {
   display: inline-block;
   text-align: center;
   font-size: 0.9375rem;
   margin-top: 0.3125rem;
-  margin-left: 1rem;
-  margin-right: 1.0625rem;
   margin-bottom: 0.3125rem;
   text-transform: uppercase; }
 
@@ -278,8 +283,7 @@ table {
 .hero {
   width: 100vw;
   height: 26.3125rem;
-  background-image: url("../images/breaking-code.jpg");
-  background-size: 100vw 100vw;
+  background-image: url("../images/breaking-code-320.jpg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -314,7 +318,7 @@ table {
   font-size: 1.5rem;
   text-transform: uppercase;
   padding-top: 2.875rem;
-  margin-top: 2.875rem; }
+  margin-top: 4.75rem; }
 
 .team_p {
   font-family: var(--font-1);
@@ -326,19 +330,19 @@ table {
 
 /* team-mireia */
 /*Start strenghts*/
-/* [TODO: valdenebro] change px to rem*/
 .strenghts-weaknesses {
   background-color: rgba(84, 88, 90, 0.2);
   /*rgb code of the color + opacity*/
-  padding: 30px 15px 15px 15px; }
+  padding: 1.875rem 0.9375rem 0.9375rem 0.9375rem; }
 
 .strenghts {
-  margin-bottom: 30px; }
+  margin-bottom: 1.875rem; }
 
 .strenghts_h4 {
+  text-transform: capitalize;
   color: var(--dark-green);
   font-family: var(--font-2);
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
   line-height: 2.05;
   text-align: center; }
@@ -346,14 +350,14 @@ table {
 .strenghts_p {
   color: var(--dark-grey);
   font-family: var(--font-1);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   text-align: center; }
 
 .rectangle {
   background-color: white;
-  height: 30px;
-  width: 30px;
+  height: 1.875rem;
+  width: 1.875rem;
   margin: auto;
   transform: translateY(50%) rotate(45deg); }
 
@@ -432,19 +436,18 @@ li {
 .footer_copy {
   font-family: var(--font-1);
   color: var(--light-grey);
-  text-transform: uppercase;
   padding-bottom: 1.25rem; }
 
 .footer_menu {
   font-family: var(--font-1);
   color: var(--dark-grey);
+  text-transform: uppercase;
   line-height: 1.25rem;
   padding-bottom: 1.875rem; }
 
 .footer_img {
   height: 2.8125rem;
-  width: 7.24375rem;
-  padding-bottom: 2.8125rem; }
+  width: 7.24375rem; }
 
 .footer_links {
   text-decoration: none;
@@ -461,10 +464,9 @@ li {
     opacity: 0.95;
     background-color: var(--dark-green); }
   .title {
-    text-align: start; }
+    text-align: start;
+    background-color: transparent; }
   .nav {
-    display: flex;
-    justify-content: end;
     background-color: var(--dark-green); }
   .lema {
     opacity: 0.8;
@@ -472,17 +474,22 @@ li {
     padding: 15px 30px;
     width: 441px;
     height: 80px; }
+  .hero {
+    background-image: url("../images/Breaking-code-768.jpg"); }
   .team_div {
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 30px; }
+  .team_h3 {
+    margin-top: 2.8125rem;
+    padding-top: 0; }
   /*Start strenghts*/
   .strenghts-weaknesses {
     display: flex;
-    padding: 45px 30px 30px 30px;
-    gap: 30px; }
+    padding: 2.8125rem 1.875rem 1.875rem 1.875rem;
+    gap: 1.875rem; }
   .strenghts_h4 {
-    margin-bottom: 15px; }
+    margin-bottom: 0.9375rem; }
   /*End strenghts*/
   /* footer-mireia */
   .footer {
@@ -510,17 +517,19 @@ li {
     margin-right: 138px; }
   .lema {
     width: 574px;
-    height: 90px;
-    margin: 400px 488px 0 138px; }
+    height: 90px; }
+  .hero {
+    background-image: url("../images/Breaking-code.jpg");
+    background-size: 100vw 60vh; }
   .team_div {
     margin-left: 299px;
     margin-right: 300px; }
   /*Start strenghts*/
   .strenghts-weaknesses {
     display: flex;
-    padding-left: 45px;
-    padding-right: 45px;
-    gap: 30px; }
+    padding-left: 2.8125rem;
+    padding-right: 2.8125rem;
+    gap: 1.875rem; }
   /*End strenghts*/
   /* footer-mireia */
   .footer {
