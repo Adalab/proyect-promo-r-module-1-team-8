@@ -299,7 +299,8 @@ table {
 .hero {
   width: 100vw;
   height: 26.3125rem;
-  background-image: url("../images/breaking-code-320.jpg");
+  background-image: url("../images/Breaking-code-320.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
