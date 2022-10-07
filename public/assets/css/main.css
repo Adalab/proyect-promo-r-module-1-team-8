@@ -122,11 +122,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.team__p {
-  color: #54585a;
-  font-size: 0.75rem;
-  font-family: "Open Sans", sans-serif;
-  text-align: center; }
+.form__team {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem; }
+
+.form__team--p {
+  font-family: var(--font-1);
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--dark-grey);
+  margin: 0.9375rem 0 0; }
+
+.team__h3--form {
+  font-family: var(--font-2);
+  color: var(--light-green);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-top: 2.875rem; }
 
 .form {
   font-family: "Open Sans", sans-serif;

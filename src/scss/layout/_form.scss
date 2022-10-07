@@ -1,10 +1,28 @@
-.team__p {
-    color: $colorText;
-    font-size: rem(12);
-    font-family: $mainFont;
+.form__team {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin-left: rem(15);
+    margin-right: rem(15);
+  }
+
+.form__team--p {
+    font-family: var(--font-1);
+  font-size: rem(16);
+  line-height: 1.5;
+  text-align: center;
+  color: var(--dark-grey);
+  margin: rem(15) 0 0;
 
 }
+.team__h3--form {
+    font-family: var(--font-2);
+    color: var(--light-green);
+    font-size: rem(24);
+    text-transform: uppercase; 
+    padding-top: rem(46);
+}
+
 .form {
     font-family: $mainFont;
     font-size: rem(14);
