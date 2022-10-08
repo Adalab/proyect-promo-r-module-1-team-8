@@ -184,16 +184,21 @@
 /*End strenghts*/
 
 
-/*quienes somos maria*/
-.quienes-somos {
+/*quienes somos*/
+.section-quienes {
   width: 100vw;
+  margin-bottom: 50px;
+}
+.div-quienes{
   display: flex;
   flex-direction: column;
 }
+
 .title-quienes {
   background-color: var(--white);
   font-family: var(--font-2);
   font-size: 24px;
+  text-transform: uppercase;
   color: var(--dark-green);
   margin-top: 50px;
   margin-bottom: 50px;
@@ -211,20 +216,23 @@
   font-family: var(--font-1);
 }
 .img-quienes {
+  object-fit: cover;
   width: 180px;
   height: 180px;
-  border-color: var(--light-grey);
+  border: 5px solid var(--light-grey);
   border-radius: 5px;
 }
 .name-quienes {
   color: var(--black);
   font-size: 20px;
+  text-align: center;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .text-quienes {
   color: var(--dark-grey);
   text-align: center;
+  line-height: 25px;
   margin-bottom: 15px;
   margin-left: 50px;
   margin-right: 50px;
@@ -232,8 +240,9 @@
 .social-media-items {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 .item a {
   text-decoration: none;
@@ -243,7 +252,7 @@ li {
   color: var(--dark-green);
 }
 
-/*Fin quienes somos Maria*/
+/*End quienes somos*/
 
 /* footer-mireia */
 .footer {
@@ -307,6 +316,7 @@ li {
       background-color: var(--dark-green);
     }
   // header
+
   // hero
   .lema{
     opacity: 0.8;
@@ -319,7 +329,6 @@ li {
   background-image: url("../images/Breaking-code-768.jpg");
 }
   // hero
-
 
   // team-mireia
   .team_div {
@@ -344,6 +353,63 @@ li {
     margin-bottom: rem(15);
   }
   /*End strenghts*/
+
+  /*quienes somos*/
+  .div-quienes{
+    margin: 0 70px 0 70px;
+  }
+  .article-1, .article-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .article-2, .article-4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  .text-container1, .text-container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 400px;
+    
+      .name-quienes{
+        display: flex;
+        justify-items: flex-start;
+        margin-left: 50px;
+      }
+      .text-quienes{
+        text-align: left;
+      }
+      .social-media-items{
+        justify-content: flex-start;
+        margin-left: 50px;
+      }
+  }
+  .text-container2, .text-container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 400px;
+  
+      .name-quienes{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+      }
+      .text-quienes{
+        text-align: right;
+      }
+      .social-media-items{
+        justify-content: flex-end;
+        margin-right: 50px;
+      }
+  }
+  
+  /*end quienes-somos*/
 
 /* footer-mireia */
   .footer {
@@ -382,6 +448,7 @@ li {
     margin-right: 138px;
    }
   // header
+
   // hero
   .lema{
     width: 574px;
@@ -410,6 +477,13 @@ li {
   }
   /*End strenghts*/
   
+  /*quienes somos*/
+  .text-container1, .text-container2, .text-container3, .text-container4{
+    min-width: 400px;
+  }
+
+  /*end quienes somos*/
+
 /* footer-mireia */
   .footer {
     height: 161px;
