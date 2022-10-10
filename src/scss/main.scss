@@ -8,6 +8,8 @@
 @import 'core/reset';
 @import 'core/variables';
 @import 'layout/form';
+@import 'layout/aboutus';
+
 
 
 :root {
@@ -184,79 +186,6 @@
 /*End strenghts*/
 
 
-/*quienes somos*/
-.section-quienes {
-  width: 100vw;
-  margin-bottom: 50px;
-}
-.div-quienes{
-  display: flex;
-  flex-direction: column;
-  margin: 0 70px 0 70px;
-  max-width: 100vw;
-  position: relative;
-}
-
-.title-quienes {
-  background-color: var(--white);
-  font-family: var(--font-2);
-  font-size: 24px;
-  text-transform: uppercase;
-  color: var(--dark-green);
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.article-1,
-.article-2,
-.article-3,
-.article-4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: var(--font-1);
-}
-.img-quienes {
-  object-fit: cover;
-  width: 180px;
-  height: 180px;
-  border: 5px solid var(--light-grey);
-  border-radius: 5px;
-}
-.name-quienes {
-  color: var(--black);
-  font-size: 20px;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-.text-quienes {
-  color: var(--dark-grey);
-  text-align: center;
-  line-height: 25px;
-  margin-bottom: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.social-media-items {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 35px;
-}
-.item a {
-  text-decoration: none;
-  color: var(--dark-green);
-}
-li {
-  color: var(--dark-green);
-}
-
-/*End quienes somos*/
-
 /* footer-mireia */
 .footer {
     width: 100vw;
@@ -357,62 +286,7 @@ li {
   }
   /*End strenghts*/
 
-  /*quienes somos*/
-  // .div-quienes{
-  //   margin: 0 70px 0 70px;
-  //   max-width: 100vw;
-  //   position: relative;
-  // }
-  .article-1, .article-3{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .article-2, .article-4{
-    display: flex;
-    flex-direction: row-reverse;
-    }
-   
-  .text-container1, .text-container3{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    max-width: 500px;
-    
-      .name-quienes{
-        display: flex;
-        justify-items: flex-start;
-        margin-left: 50px;
-      }
-      .text-quienes{
-        text-align: left;
-      }
-      .social-media-items{
-        justify-content: flex-start;
-        margin-left: 50px;
-      }
-  }
-  .text-container2, .text-container4{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    max-width: 500px;
-    
-      .name-quienes{
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 50px;
-      }
-      .text-quienes{
-        text-align: right;
-      }
-      .social-media-items{
-        justify-content: flex-end;
-        margin-right: 50px;
-      }
-  }
   
-  /*end quienes-somos*/
 
 /* footer-mireia */
   .footer {
@@ -479,15 +353,6 @@ li {
   }
   /*End strenghts*/
   
-  /*quienes somos*/
-  .div-quienes{
-    margin: 0 150px 0 150px;
-  }
-  .text-container1, .text-container2, .text-container3, .text-container4{
-    min-width: 400px;
-  }
-
-  /*end quienes somos*/
 
 /* footer-mireia */
   .footer {
