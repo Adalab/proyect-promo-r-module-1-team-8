@@ -241,8 +241,6 @@
   .title{
     text-align: start;
     background-color: transparent;
-   
-
   }
   .nav{
       background-color: var(--dark-green);
@@ -279,10 +277,13 @@
   .strenghts-weaknesses {
     display: flex;
     padding: rem(45) rem(30) rem(30) rem(30);
-    gap: rem(30);
+    gap: rem(50);
   }
   .strenghts_h4 {
     margin-bottom: rem(15);
+  }
+  .strenghts {
+    width: 50%;
   }
   /*End strenghts*/
 
