@@ -1,0 +1,45 @@
+.team_div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: rem(15);
+  margin-right: rem(15);
+}
+
+.team_h3 {
+  font-family: var(--font-2);
+  color: $colorButton;
+  font-size: rem(24);
+  text-transform: uppercase;
+  padding-top: rem(46);
+  margin-top: rem(76);
+}
+
+.team_p {
+  font-family: var(--font-1);
+  font-size: rem(16);
+  line-height: 1.5;
+  text-align: center;
+  color: var(--dark-grey);
+  margin: rem(15) 0 0;
+}
+
+@media all and (min-width: 768px) {
+  .team_div {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 30px;
+  }
+
+  .team_h3 {
+    margin-top: rem(45);
+    padding-top: 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .team_div {
+    margin-left: 299px;
+    margin-right: 300px;
+  }
+}

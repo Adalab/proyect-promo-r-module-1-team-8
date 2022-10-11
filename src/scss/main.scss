@@ -8,7 +8,9 @@
 @import "core/reset";
 @import "core/variables";
 @import "layout/form";
+@import "layout/team";
 @import "layout/aboutus";
+@import "layout/footer";
 
 :root {
   --font-1: "Open Sans", sans-serif;
@@ -119,35 +121,6 @@
 
 /*hero*/
 
-/* team-mireia */
-.team_div {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-left: rem(15);
-  margin-right: rem(15);
-}
-
-.team_h3 {
-  font-family: var(--font-2);
-  color: $colorButton;
-  font-size: rem(24);
-  text-transform: uppercase;
-  padding-top: rem(46);
-  margin-top: rem(76);
-}
-
-.team_p {
-  font-family: var(--font-1);
-  font-size: rem(16);
-  line-height: 1.5;
-  text-align: center;
-  color: var(--dark-grey);
-  margin: rem(15) 0 0;
-}
-
-/* team-mireia */
-
 /*Start strenghts*/
 .strenghts-weaknesses {
   background-color: rgba(84, 88, 90, 0.2); /*rgb code of the color + opacity*/
@@ -182,45 +155,6 @@
 
 /*End strenghts*/
 
-/* footer-mireia */
-.footer {
-  width: 100%;
-  height: 250px;
-  font-size: rem(14);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: rem(30);
-  border-top: rem(1) solid var(--black);
-}
-
-.footer_copy {
-  font-family: var(--font-1);
-  color: var(--light-grey);
-  padding-bottom: rem(20);
-}
-
-.footer_menu {
-  font-family: var(--font-1);
-  color: var(--dark-grey);
-  text-transform: uppercase;
-  line-height: rem(20);
-  padding-bottom: rem(30);
-}
-
-.footer_img {
-  height: rem(45);
-  width: rem(115.9);
-}
-
-.footer_links {
-  text-decoration: none;
-  color: var(--dark-grey);
-}
-
-/* footer-mireia */
-
 @media all and (min-width: 768px) {
   // header
   .header {
@@ -254,19 +188,6 @@
   }
   // hero
 
-  // team-mireia
-  .team_div {
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-bottom: 30px;
-  }
-
-  .team_h3 {
-    margin-top: rem(45);
-    padding-top: 0;
-  }
-  // team-
-
   /*Start strenghts*/
   .strenghts-weaknesses {
     display: flex;
@@ -280,27 +201,6 @@
     width: 50%;
   }
   /*End strenghts*/
-
-  /* footer-mireia */
-  .footer {
-    height: 170px;
-    align-items: flex-start;
-    padding-left: 45px;
-  }
-
-  .footer_copy {
-    padding-bottom: 15px;
-  }
-
-  .footer_menu {
-    line-height: 30px;
-    position: absolute;
-    right: 0;
-    padding-right: 45px;
-    padding-bottom: 56px;
-    text-align: right;
-  }
-  /* footer-mireia */
 
   @media all and (min-width: 1200px) {
     // header
@@ -330,13 +230,6 @@
     }
     // hero
 
-    // team-mireia
-    .team_div {
-      margin-left: 299px;
-      margin-right: 300px;
-    }
-    // team-mireia
-
     /*Start strenghts*/
     .strenghts-weaknesses {
       display: flex;
@@ -345,26 +238,5 @@
       gap: rem(30);
     }
     /*End strenghts*/
-
-    /* footer-mireia */
-    .footer {
-      height: 161px;
-      align-items: flex-start;
-      padding-left: 138px;
-    }
-
-    .footer_copy {
-      padding-bottom: 15px;
-    }
-
-    .footer_menu {
-      line-height: 30px;
-      position: absolute;
-      right: 0;
-      padding-right: 138px;
-      padding-bottom: 47px;
-      text-align: right;
-    }
-    /* footer-mireia */
   }
 }
