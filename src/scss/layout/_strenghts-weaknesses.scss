@@ -1,0 +1,55 @@
+.strenghts-weaknesses {
+    background-color: rgba(84, 88, 90, 0.2); /*rgb code of the color + opacity*/
+    padding: rem(30) rem(15) rem(15) rem(15);
+  }
+  .strenghts {
+    margin-bottom: rem(30);
+  }
+  .strenghts_h4 {
+    text-transform: capitalize;
+    color: var(--dark-green);
+    font-family: var(--font-2);
+    font-size: rem(22);
+    font-weight: 500;
+    line-height: 2.05;
+    text-align: center;
+  }
+  .strenghts_p {
+    color: var(--dark-grey);
+    font-family: var(--font-1);
+    font-size: rem(16);
+    line-height: 1.5;
+    text-align: center;
+  }
+  .rectangle {
+    background-color: white;
+    height: rem(30);
+    width: rem(30);
+    margin: auto;
+    transform: translateY(50%) rotate(45deg);
+  }
+  
+ //////////////////////////////
+ 
+ @media all and (min-width: 768px) {
+     .strenghts-weaknesses {
+      display: flex;
+      padding: rem(45) rem(30) rem(30) rem(30);
+      gap: rem(50);
+    }
+    .strenghts_h4 {
+      margin-bottom: rem(15);
+    }
+    .strenghts {
+      width: 50%;
+    }
+  
+    @media all and (min-width: 1200px) {
+      .strenghts-weaknesses {
+        display: flex;
+        padding-left: rem(45);
+        padding-right: rem(45);
+        gap: rem(30);
+      }
+    }
+  }
