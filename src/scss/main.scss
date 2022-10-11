@@ -96,14 +96,26 @@
 .hero {
   width: 100%;
   height: rem(421);
-  background-image: url("../images/Breaking-code-320.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  // background-image: url("../images/Breaking-code-320.jpg");
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  position: relative;
+}
+
+.background-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+  width: 280px;
+  height: auto;
+  position: absolute;
+  transform: translateY(-150px);
 }
 
 .lema {
@@ -152,8 +164,13 @@
     width: 441px;
     height: 80px;
   }
-  .hero {
-    background-image: url("../images/Breaking-code-768.jpg");
+  // .hero {
+  //   background-image: url("../images/Breaking-code-768.jpg");
+  // }
+  .background-img {
+    width: 350px;
+    height: auto;
+    transform: translateY(-180px);
   }
   // hero
 
@@ -179,9 +196,14 @@
       height: 90px;
     }
 
-    .hero {
-      background-image: url("../images/Breaking-code.jpg");
-      background-size: 100% 60vh;
+    // .hero {
+    //   background-image: url("../images/Breaking-code.jpg");
+    //   background-size: 100% 60vh;
+    // }
+    .background-img {
+      width: 380px;
+      height: auto;
+      transform: translateY(-180px);
     }
     // hero
   }
