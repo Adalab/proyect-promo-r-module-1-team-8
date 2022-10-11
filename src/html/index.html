@@ -1,58 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/be943aedd0.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <title>Proyect 1 Team 8</title>
-  </head>
 
-  <body>
-    <include src="./partials/header.html" title="header"></include>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/be943aedd0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <title>Proyect 1 Team 8</title>
+</head>
 
-    <main>
-      <include src="./partials/hero.html" title="hero"></include>
+<body>
+  <!--header-->
+  <include src="./partials/header.html"></include>
+  <main>
+    <!--hero-->
+    <include src="./partials/hero.html"></include>
+    <!--team-->
+    <section class="team" id="team">
+      <include src="./partials/team.html" team_h3="Equipo"
+        team_p="Esta página trata sobre cuatro mujeres con backgrounds muy diferentes que se encuentran en una encrucijada, seguir en mundillos que no les dan lo que buscan o enfrentarse a un cambio que pondrá patas arriba su vida."
+        team_p_2="En un plotwist muy emocionante, se deciden encontrar la receta perfecta para crear una web que les dé visibilidad sobre su nueva profesión, la programación web. ¿Querrás formar parte de este cambio? Si es así, haz scroll hacia abajo. Aviso: esta página puede ser adictiva.">
+      </include>
+    </section>
+    <!--strenghts-->
+    <include src="./partials/strenghts-weaknesses.html"></include>
+    <!--who we are-->
+    <section class="quienes-somos" id="quienes-somos">
+      <include src="./partials/about-us.html"></include>
+    </section>
+    <!--footer-->
+    <include src="./partials/footer.html"></include>
+  </main>
+</body>
 
-      <section class="team" id="team">
-        <include src="./partials/team.html" team_h3="Equipo" team_p="Esta página trata sobre cuatro mujeres con backgrounds muy diferentes que se encuentran en una encrucijada, seguir en mundillos que no les dan lo que buscan o enfrentarse a un cambio que pondrá patas arriba su vida." team_p_2="En un plotwist muy emocionante, se deciden encontrar la receta perfecta para crear una web que les dé visibilidad sobre su nueva profesión, la programación web. ¿Querrás formar parte de este cambio? Si es así, haz scroll hacia abajo. Aviso: esta página puede ser adictiva."></include>
-      </section>
-
-      <div class="rectangle"></div>
-      <section class="strenghts-weaknesses">
-        <include
-          src="./partials/strenghts-weaknesses.html"
-          strenghts_h4="Fortalezas"
-          strenghts_p="Walter White supo hacer de sus debilidades fortalezas: gracias a sus conocimientos en química consiguió materias primas a partir de simples productos de droguería. Nosotras, como Walter White, destacamos por nuestros conocimientos previos de trabajo en equipo, comunicación fluida y asertiva, compromiso y perseverancia, que sumado a nuestros recientes conocimientos en programación nos convierte en un gran equipo de Breaking Coders! "
-        ></include>
-        <include
-          src="./partials/strenghts-weaknesses.html"
-          strenghts_h4="Debilidades"
-          strenghts_p="Aunque en algún momento durante el desarrollo podrá parecer que el código va a acabar como la caravana de Walter, os podemos asegurar que todo terminará por cobrar sentido. Quedará limpio, optimizado y, sobre todo, será eficiente. El producto resultante será de la mejor calidad."
-        ></include>
-      </section>
-
-      <section class="quienes-somos" id="quienes-somos">
-        <include src="./partials/about-us.html" title=""></include>
-      </section>
-
-      <include src="./partials/footer.html" title=""></include>
-    </main>
-  </body>
 </html>
