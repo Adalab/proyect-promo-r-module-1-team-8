@@ -35,7 +35,7 @@
     </nav>
   </header>
   <!--contacts section-->
-  <main>
+  <iv>
     <section class="hero">
       <img class="background-img" src="./assets/images/breaking-code-black.jpg" alt="Breaking code logo"
         title="Breaking Code logo">
@@ -45,7 +45,7 @@
       <h3 class="team__h3--form">Contacto</h3>
       <p class="form__team--p">Si lo que estás buscando es la mejor receta para tu código, un código con el que
         enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:"</p>
-      <p class="form__team--p">Todos los campos marcados con <span class="form__input--color">*</span> son obligatorios.
+      <p class="form__team--p">Todos los campos marcados con <span class="form__color">*</span> son obligatorios.
       </p>
 
     </section>
@@ -53,26 +53,36 @@
 
 
     <form action="/signup" method="post" class="form">
-      <label class="form__label" for="completeName">Nombre completo<span class="form__input--color">*</span></label>
-      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__input" required />
+
+      <div class="form__divName">
+      <label class="form__label" for="completeName">Nombre completo<span class="form__color"> *</span></label>
+      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__name" required />
+    </div>
 
 
-
-      <label class="form__label" for="emailAddress">Email<span class="form__input--color">*</span></label>
+      <div class="form__email-phone">
+        <div class="email__box">
+      <label class="form__label" for="emailAddress">Email<span class="form__color"> *</span></label>
       <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
-        class="form__input--email" required />
-
+        class="form__email" required />
+      </div>
+<div class="phone__box">
       <label class="form__label" for="telephone">Teléfono</label>
-      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input" />
+      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input form__phone" />
+    </div>
+    </div>
 
-
-
-      <label class="form__label" for="comments">Mensaje<span class="form__input--color">*</span></label>
+    <div class="form__divTextarea">
+      <label class="form__label" for="comments">Mensaje<span class="form__color"> *</span></label>
       <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"
         required></textarea>
+    </div>
 
-      <input type="submit" value="Enviar" class="form__input--send" />
+    <div class="form__divSend">
+      <input type="submit" value="Enviar" class="form__send" />
+        </div>
     </form>
+
 
 
 
