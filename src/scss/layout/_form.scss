@@ -120,9 +120,8 @@ border: 0.3px solid $colorButton;
 }
 
     &__divSend {
-    display: flex;
-    align-self: flex-end;
-    margin-right: rem(163);
+   
+    margin-left: rem(150);
 }
 }
 }
@@ -133,7 +132,7 @@ border: 0.3px solid $colorButton;
             width: rem(601);
         }
         &__divSend {
-            margin-right: rem(300);
+            margin-left: rem(320);
         }
 
         &__email-phone {
