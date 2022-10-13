@@ -1,292 +1,153 @@
 .form__team {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-left: rem(15);
-    margin-right: rem(15);
-  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: rem(15);
+  margin-right: rem(15);
+}
 
 .form__team--p {
-    font-family: var(--font-1);
+  font-family: var(--font-1);
   font-size: rem(16);
   line-height: 1.5;
   text-align: center;
   color: var(--dark-grey);
   margin: rem(15) 0 0;
-
 }
 .team__h3--form {
-    font-family: var(--font-2);
-    color: $colorButton;
-    font-size: rem(24);
-    text-transform: uppercase; 
-    padding-top: rem(46);
+  font-family: var(--font-2);
+  color: $colorButton;
+  font-size: rem(24);
+  text-transform: uppercase;
+  padding-top: rem(46);
 }
 
 .form {
-    font-family: $mainFont;
-    font-size: rem(14);
-    color: $colorText;
-    margin-top: rem(45);
-    margin-left: rem(15);
+  font-family: $mainFont;
+  font-size: rem(14);
+  color: $colorText;
+  margin-top: rem(45);
+  margin-left: rem(15);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__email-phone {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-  
+  }
 
-    &__email-phone {
-        display: flex;
-        flex-direction: column;
-    }
+  &__divName,
+  &__divTextarea {
+    margin-top: rem(13);
+    margin-bottom: rem(7);
+  }
 
-    &__divName,  &__divTextarea {
-margin-top: rem(13);
-margin-bottom: rem(7);
+  .email__box,
+  .phone__box {
+    margin-top: rem(13);
+    margin-bottom: rem(7);
+  }
 
-    }
+  &__name,
+  &__phone {
+    width: rem(290);
+    height: rem(45);
+    margin-top: rem(7);
+    border: 0.3px solid $colorForm;
+    color: $colorForm;
+    padding-left: rem(15);
+  }
 
-    .email__box, .phone__box {
-        margin-top: rem(13);
-margin-bottom: rem(7);
-    }
+  &__email {
+    width: rem(290);
+    height: rem(45);
+    margin-top: rem(7);
+    border: 0.3px solid $colorForm;
+    color: $colorText;
+    font-size: rem(16);
+    padding-left: rem(15);
+  }
 
-    &__name,  &__phone {
-        width: rem(290);
-        height: rem(45);
-        margin-top: rem(7);
-        border: 0.3px solid $colorForm;
-        color: $colorForm;
-        padding-left: rem(15);
-    }
+  &__textarea {
+    width: rem(290);
+    height: rem(105);
+    margin-bottom: rem(30);
+    margin-top: rem(7);
+    border: 0.3px solid $colorForm;
+    color: $colorForm;
+    font-family: $mainFont;
+    padding-left: rem(15);
+    padding-top: rem(7);
+  }
 
-    &__email {
-        width: rem(290);
-        height: rem(45);
-        margin-top: rem(7);
-        border: 0.3px solid $colorForm;
-        color: $colorText;
-        font-size: rem(16);
-        padding-left: rem(15);
-    }
-
-    &__textarea {
-        width: rem(290);
-        height: rem(105);
-        margin-bottom: rem(30);
-        margin-top: rem(7);
-        border: 0.3px solid $colorForm;
-         color: $colorForm;
-         font-family: $mainFont;
-         padding-left: rem(15);
-         padding-top: rem(7);
-        
-    }
-
-     &__send {
-  margin-bottom: rem(60);
-background-color: $colorButton;
-width: rem(290);
-color: white;
-text-transform: uppercase;
-padding: rem(11) rem(74) rem(12);
-border-radius: rem(4);
-border: 0.3px solid $colorButton;
-//     //     margin-top: rem(30);
-//     //     margin-bottom: rem(60);
-//     //     margin-left: rem(15);
-//     //     margin-right: rem(15);
-//     //     
-//     //     font-family: $mainFont;
-//     //     font-size: rem(16);
-//     //     
-//     //     
-}
-    &__color {
-       color: $colorIcon;
-       }
+  &__send {
+    margin-bottom: rem(60);
+    background-color: $colorButton;
+    width: rem(290);
+    color: white;
+    text-transform: uppercase;
+    padding: rem(11) rem(74) rem(12);
+    border-radius: rem(4);
+    border: 0.3px solid $colorButton;
+  }
+  &__color {
+    color: $colorIcon;
+  }
 }
 
 @media all and (min-width: 768px) {
-.form {
+  .form {
     align-items: center;
     margin-left: 0;
 
     &__label {
-        display: flex;
-        align-items: flex-start;
-}
-&__name, &__email, &__phone, &__textarea {
-    width: rem(442);
-}
+      display: flex;
+      align-items: flex-start;
+    }
+    &__name,
+    &__email,
+    &__phone,
+    &__textarea {
+      width: rem(442);
+    }
 
     &__divSend {
-   
-    margin-left: rem(150);
-}
-}
+      margin-left: rem(150);
+    }
+  }
 }
 
 @media all and (min-width: 1200px) {
-    .form {
-        &__name, &__textarea {
-            width: rem(601);
-        }
-        &__divSend {
-            margin-left: rem(320);
-        }
-
-        &__email-phone {
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        &__email {
-            width: rem(395);
-          
-        }
-
-        &__phone {
-            width: rem(162);
-        }
+  .form {
+    &__name,
+    &__textarea {
+      width: rem(601);
     }
- .email__box {
+    &__divSend {
+      margin-left: rem(320);
+    }
+
+    &__email-phone {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    &__email {
+      width: rem(395);
+    }
+
+    &__phone {
+      width: rem(162);
+    }
+  }
+  .email__box {
     display: flex;
     flex-direction: column;
     margin-right: rem(44);
- }
+  }
 
- .phone__box {
+  .phone__box {
     display: flex;
     flex-direction: column;
- }
+  }
 }
-//     // 
-    
-//     &__input{
-//  // -webkit-appearance: none;
-//     // -moz-appearance: none;
-//     // appearance: none;
-//     // display: block;
-//     // box-shadow: none;
-//     // width: rem(290);
-//     // height: rem(45);
-//     // margin: rem(7) rem(15);
-//     // padding-left: rem(15);
-//     // 
-//     // color: $colorForm;
-         
-//         &--email{
-//             // font-size: rem(16);
-//             // width: rem(290);
-//             // height: rem(45);
-//             // margin: rem(7) rem(15);
-//             // padding-left: rem(15);
-//             // color: $colorText;
-//             // border: 0.3px solid $colorForm;
-          
-//         }
-//     // &--send {
-//     //     background-color: $colorButton;
-//     //     width: rem(290);
-//     //     margin-top: rem(30);
-//     //     margin-bottom: rem(60);
-//     //     margin-left: rem(15);
-//     //     margin-right: rem(15);
-//     //     color: white;
-//     //     font-family: $mainFont;
-//     //     font-size: rem(16);
-//     //     text-transform: uppercase;
-//     //     padding: rem(11) rem(74) rem(12);
-//     //     border-radius: rem(4);
-//     //     border: 0.3px solid $colorButton;
-     
-//     }
-//   
-//     }
-
-//     &__textarea {
-//         // width: rem(290);
-//         // margin-top: rem(7);
-//         // margin-left: rem(15);
-//         // margin-right: rem(15);
-//         // height: rem(105);
-//         // padding-left: rem(15);
-//         // padding-top: 11px;
-//         // font-family: $mainFont;
-//         // font-size: rem(14);
-//         // color: $colorForm;
-//         // border: 0.3px solid $colorForm;
-//     }
-//     &__label {
-//         // display: inline-block;
-//         // padding-top: rem(13);
-//         // padding-bottom: rem(7);
-//         // padding-left: rem(15);
-//         // width: 100%;
-//     }
-
-
-
-// .form {
-//     // &__input{
-//     // width: rem(442);
-//     // margin: rem(7) rem(163);
-         
-//         &--email{
-//         //     width: rem(442);
-//         //     margin: rem(7) rem(163);    
-//         // }
-
-//     &--send {
-//         // width: rem(206);
-//         // margin-left: rem(399);
-     
-//     }
-//     }
-
-//     &__textarea {
-//         // width: rem(442);
-//         // margin-left: rem(163);
-//     }
-//     &__label {
-//         // padding: rem(30) rem(104) rem(7) rem(163);
-//     }
-// }
-// }
-
-// @media all and (min-width: 1200px) {
-//     .form {
-//         // display: grid;
-//         // grid-template-columns: 630px 630px;
-//         // grid-template-rows: auto auto auto;
-//         // &__input{
-//         // width: rem(601);
-//         // margin: rem(7) rem(299);
-             
-//             &--email{
-//             //    width: rem(395);
-//             //     margin-bottom: rem(7); 
-//             //     margin-left: rem(299);    
-//             }
-//             &--phone {
-//                 // width: rem(162);
-//                 // margin-left: rem(10);
-//             }
-    
-//         &--send {
-//             // width: rem(278);
-//             // margin-left: rem(622);
-         
-//         }
-//         }
-//     &__email-phone{
-//         // display: flex;
-//         // flex-wrap: wrap;
-//     }
-//         &__textarea {
-//             // width: rem(601);
-//             // margin-left: rem(299); 
-//         }
-//         &__label {
-//             // padding: rem(13) rem(300) rem(7) rem(299);
-//         }
-//     }
