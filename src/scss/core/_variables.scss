@@ -1,14 +1,14 @@
 //functions
 $defaultFontSize: 16;
 @function rem($pixels) {
-    @return ($pixels / $defaultFontSize * 1rem);
-  }
+  @return ($pixels / $defaultFontSize * 1rem);
+}
 
-  //colors
-  $colorButton: #099d8d;
-  $colorText: #54585a;
-  $colorIcon: #14d9c4;
-  $colorForm: #b8b8b9;
+//colors
+$colorButton: #099d8d;
+$colorText: #54585a;
+$colorIcon: #14d9c4;
+$colorForm: #b8b8b9;
 
-  //fonts
-  $mainFont: "Open Sans", sans-serif;
+//fonts
+$mainFont: "Open Sans", sans-serif;
