@@ -34,6 +34,7 @@
       </ul>
     </nav>
   </header>
+
   <!--contacts section-->
   <iv>
     <section class="hero">
@@ -44,7 +45,7 @@
     <section class="form__team">
       <h3 class="team__h3--form">Contacto</h3>
       <p class="form__team--p">Si lo que estás buscando es la mejor receta para tu código, un código con el que
-        enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:"</p>
+        enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:</p>
       <p class="form__team--p">Todos los campos marcados con <span class="form__color">*</span> son obligatorios.
       </p>
 
@@ -52,7 +53,8 @@
     </section>
 
 
-    <form action="/signup" method="post" class="form">
+    <form action="https://formspree.io/f/xknevlwl"
+    method="POST" method="post" class="form">
 
       <div class="form__divName">
       <label class="form__label" for="completeName">Nombre completo<span class="form__color">*</span></label>
@@ -63,7 +65,7 @@
       <div class="form__email-phone">
         <div class="email__box">
       <label class="form__label" for="emailAddress">Email<span class="form__color">*</span></label>
-      <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
+      <input placeholder="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
         class="form__email" required />
       </div>
 <div class="phone__box">
@@ -89,17 +91,38 @@
   </main>
   <!--footer-->
   <footer class="footer">
-      <p class="footer_copy">Breaking Code &copy; 2022</p>
-      <nav class="footer_menu">
-          <ul>
-              <li><a class="footer_links" href="./index.html#team" title="Sección Equipo">Equipo</a></li>
-              <li><a class="footer_links"  href="./index.html#quienes-somos" title="Sección Quiénes somos">Quiénes somos</a></li>
-              <li><a class="footer_links"  href="./contact.html" title="Contacto">Contacto</a></li>
-          </ul>
-      </nav>
-      <div class="footer-img">
-          <img src="https://github.com/Adalab/pw-project-promo-x-module-1-team-profes/blob/main/logo-adalab.png?raw=true" alt="logo" class="footer_img">
-      </div>
+    <p class="footer_copy">Breaking Code &copy; 2022</p>
+    <nav class="footer_menu">
+      <ul>
+        <li>
+          <a class="footer_links" href="./index.html#team" title="Sección Equipo"
+            >Equipo</a
+          >
+        </li>
+        <li>
+          <a
+            class="footer_links"
+            href="./index.html#quienes-somos"
+            title="Sección Quiénes somos"
+            >Quiénes somos</a
+          >
+        </li>
+        <li>
+          <a class="footer_links" href="./contact.html" title="Contacto"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="footer-img">
+      <img
+        src="https://github.com/Adalab/pw-project-promo-x-module-1-team-profes/blob/main/logo-adalab.png?raw=true"
+        alt="logo"
+        class="footer_img"
+      />
+    </div>
+  </footer>
+
   <!--outside main-->
 </body>
 
